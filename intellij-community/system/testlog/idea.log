@@ -3209,3 +3209,343 @@ java.lang.Throwable
 2014-07-21 10:56:10,118 [   3421]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 72 ms 
 2014-07-21 10:56:10,118 [   3421]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 23 files to update 
 2014-07-21 10:56:11,045 [   4348]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 927 ms 
+2014-07-21 11:06:32,989 [      0]   INFO - llij.ide.plugins.PluginManager - 1 plugins initialized in 624 ms 
+2014-07-21 11:06:32,990 [      1]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE 
+2014-07-21 11:06:33,407 [    418]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 31 ms 
+2014-07-21 11:06:33,461 [    472]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=1837629440 
+2014-07-21 11:06:33,541 [    552]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 102 ms 
+2014-07-21 11:06:33,546 [    557]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is disabled 
+2014-07-21 11:06:33,547 [    558]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 108 ms 
+2014-07-21 11:06:33,554 [    565]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 119 ms 
+2014-07-21 11:06:33,652 [    663]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2014-07-21 11:06:33,652 [    663]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 245 ms 
+2014-07-21 11:06:33,671 [    682]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2014-07-21 11:06:33,671 [    682]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 17 ms 
+2014-07-21 11:06:33,743 [    754]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2014-07-21 11:06:33,800 [    811]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 128 ms 
+2014-07-21 11:06:33,854 [    865]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 48 ms 
+2014-07-21 11:06:33,878 [    889]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 23 ms 
+2014-07-21 11:06:33,890 [    901]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 12 ms 
+2014-07-21 11:06:33,895 [    906]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-07-21 11:06:33,900 [    911]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-07-21 11:06:33,905 [    916]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2014-07-21 11:06:33,907 [    918]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2014-07-21 11:06:33,913 [    924]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/proxy.settings.xml file is null 
+2014-07-21 11:06:33,921 [    932]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2014-07-21 11:06:34,007 [   1018]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2014-07-21 11:06:34,008 [   1019]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 85 ms 
+2014-07-21 11:06:34,027 [   1038]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-07-21 11:06:34,138 [   1149]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 215 ms 
+2014-07-21 11:06:34,138 [   1149]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 215 ms 
+2014-07-21 11:06:34,142 [   1153]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/abbreviations.xml file is null 
+2014-07-21 11:06:34,158 [   1169]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 14 ms 
+2014-07-21 11:06:34,162 [   1173]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2014-07-21 11:06:34,168 [   1179]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2014-07-21 11:06:34,171 [   1182]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-07-21 11:06:34,175 [   1186]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-07-21 11:06:34,591 [   1602]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 407 ms 
+2014-07-21 11:06:34,615 [   1626]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2014-07-21 11:06:34,615 [   1626]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 23 ms 
+2014-07-21 11:06:34,638 [   1649]   INFO - ij.components.ComponentManager - com.intellij.execution.ExecutorRegistryImpl initialized in 13 ms 
+2014-07-21 11:06:34,652 [   1663]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunnerRegistryImpl initialized in 13 ms 
+2014-07-21 11:06:34,673 [   1684]   INFO - ij.components.ComponentManager - com.intellij.platform.PlatformProjectStarter initialized in 20 ms 
+2014-07-21 11:06:34,691 [   1702]   INFO - ij.components.ComponentManager - org.intellij.plugins.relaxNG.ApplicationLoader initialized in 17 ms 
+2014-07-21 11:06:34,698 [   1709]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/html5.rnc 
+2014-07-21 11:06:34,699 [   1710]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/xhtml5.rnc 
+2014-07-21 11:06:34,699 [   1710]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/html5chars.ent 
+2014-07-21 11:06:34,792 [   1803]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 15 ms 
+2014-07-21 11:06:34,805 [   1816]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.FileStatusManagerImpl initialized in 12 ms 
+2014-07-21 11:06:34,826 [   1837]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 19 ms 
+2014-07-21 11:06:34,833 [   1844]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 28 ms 
+2014-07-21 11:06:34,835 [   1846]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 29 ms 
+2014-07-21 11:06:34,867 [   1878]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 31 ms 
+2014-07-21 11:06:35,025 [   2036]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2014-07-21 11:06:35,032 [   2043]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2014-07-21 11:06:35,049 [   2060]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 178 ms 
+2014-07-21 11:06:35,068 [   2079]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 17 ms 
+2014-07-21 11:06:35,069 [   2080]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 352 ms 
+2014-07-21 11:06:35,070 [   2081]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-07-21 11:06:35,076 [   2087]   INFO - ij.components.ComponentManager - com.intellij.javaee.DefaultHtmlDoctypeInitialConfigurator initialized in 385 ms 
+2014-07-21 11:06:35,080 [   2091]   INFO - pl.stores.ApplicationStoreImpl - 69 application components initialized in 2059 ms 
+2014-07-21 11:06:35,317 [   2328]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 45 ms 
+2014-07-21 11:06:35,320 [   2331]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 50 ms 
+2014-07-21 11:06:35,322 [   2333]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 52 ms 
+2014-07-21 11:06:35,366 [   2377]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 28 ms 
+2014-07-21 11:06:35,386 [   2397]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 19 ms 
+2014-07-21 11:06:35,402 [   2413]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 11 ms 
+2014-07-21 11:06:35,469 [   2480]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 47 ms 
+2014-07-21 11:06:35,478 [   2489]   INFO - ellij.project.impl.ProjectImpl - 93 project components initialized in 365 ms 
+2014-07-21 11:06:35,478 [   2489]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-07-21 11:06:35,497 [   2508]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $MODULE_FILE$ file is null 
+2014-07-21 11:06:35,522 [   2533]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 17 ms 
+2014-07-21 11:06:35,582 [   2593]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2014-07-21 11:06:35,600 [   2611]   WARN - rSkeletons.PyUserSkeletonsUtil - python-skeletons directory not found in paths: [/home/user/GitHub/intellij-community/intellij-community/config/python-skeletons, /home/user/GitHub/intellij-community/intellij-community/python/helpers/python-skeletons] 
+2014-07-21 11:06:35,603 [   2614]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Stubs 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at com.jetbrains.python.PythonMockSdk.create(PythonMockSdk.java:83)
+	at com.jetbrains.python.PythonMockSdk.findOrCreate(PythonMockSdk.java:51)
+	at com.jetbrains.python.fixtures.PyTestCase$PyLightProjectDescriptor.getSdk(PyTestCase.java:161)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:277)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.roots.ModuleRootModificationUtil.updateModel(ModuleRootModificationUtil.java:152)
+	at com.intellij.testFramework.LightPlatformTestCase$2.run(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.command.WriteCommandAction$Simple.run(WriteCommandAction.java:166)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:38)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1010)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:111)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:124)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:108)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:80)
+	at com.intellij.testFramework.LightPlatformTestCase.initProject(LightPlatformTestCase.java:216)
+	at com.intellij.testFramework.LightPlatformTestCase.doSetup(LightPlatformTestCase.java:376)
+	at com.intellij.testFramework.fixtures.impl.LightIdeaTestFixtureImpl.setUp(LightIdeaTestFixtureImpl.java:51)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl$19.run(CodeInsightTestFixtureImpl.java:1163)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2087)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl.setUp(CodeInsightTestFixtureImpl.java:1159)
+	at com.jetbrains.python.fixtures.PyTestCase.setUp(PyTestCase.java:83)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at com.intellij.testFramework.UsefulTestCase.defaultRunBare(UsefulTestCase.java:331)
+	at com.intellij.testFramework.UsefulTestCase$3.run(UsefulTestCase.java:344)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:241)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-07-21 11:06:35,605 [   2616]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Py.module.name 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at com.jetbrains.python.PythonMockSdk.create(PythonMockSdk.java:84)
+	at com.jetbrains.python.PythonMockSdk.findOrCreate(PythonMockSdk.java:51)
+	at com.jetbrains.python.fixtures.PyTestCase$PyLightProjectDescriptor.getSdk(PyTestCase.java:161)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:277)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.roots.ModuleRootModificationUtil.updateModel(ModuleRootModificationUtil.java:152)
+	at com.intellij.testFramework.LightPlatformTestCase$2.run(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.command.WriteCommandAction$Simple.run(WriteCommandAction.java:166)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:38)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1010)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:111)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:124)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:108)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:80)
+	at com.intellij.testFramework.LightPlatformTestCase.initProject(LightPlatformTestCase.java:216)
+	at com.intellij.testFramework.LightPlatformTestCase.doSetup(LightPlatformTestCase.java:376)
+	at com.intellij.testFramework.fixtures.impl.LightIdeaTestFixtureImpl.setUp(LightIdeaTestFixtureImpl.java:51)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl$19.run(CodeInsightTestFixtureImpl.java:1163)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2087)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl.setUp(CodeInsightTestFixtureImpl.java:1159)
+	at com.jetbrains.python.fixtures.PyTestCase.setUp(PyTestCase.java:83)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at com.intellij.testFramework.UsefulTestCase.defaultRunBare(UsefulTestCase.java:331)
+	at com.intellij.testFramework.UsefulTestCase$3.run(UsefulTestCase.java:344)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:241)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-07-21 11:06:35,667 [   2678]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@2704f617 
+2014-07-21 11:06:35,828 [   2839]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 139 ms 
+2014-07-21 11:06:35,828 [   2839]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 11 files to update 
+2014-07-21 11:06:35,856 [   2867]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2014-07-21 11:06:35,915 [   2926]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 87 ms 
+2014-07-21 11:06:35,981 [   2992]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2014-07-21 11:06:36,290 [   3301]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@6bdc0cad 
+2014-07-21 11:06:36,370 [   3381]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 79 ms 
+2014-07-21 11:06:36,371 [   3382]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 23 files to update 
+2014-07-21 11:06:37,263 [   4274]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 892 ms 
+2014-07-21 11:50:38,638 [      0]   INFO - llij.ide.plugins.PluginManager - 1 plugins initialized in 630 ms 
+2014-07-21 11:50:38,639 [      1]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE 
+2014-07-21 11:50:39,059 [    421]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 30 ms 
+2014-07-21 11:50:39,116 [    478]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=1837629440 
+2014-07-21 11:50:39,230 [    592]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 137 ms 
+2014-07-21 11:50:39,235 [    597]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is disabled 
+2014-07-21 11:50:39,236 [    598]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 143 ms 
+2014-07-21 11:50:39,243 [    605]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 155 ms 
+2014-07-21 11:50:39,342 [    704]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2014-07-21 11:50:39,343 [    705]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 283 ms 
+2014-07-21 11:50:39,361 [    723]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2014-07-21 11:50:39,362 [    724]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 16 ms 
+2014-07-21 11:50:39,431 [    793]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2014-07-21 11:50:39,486 [    848]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 124 ms 
+2014-07-21 11:50:39,541 [    903]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 48 ms 
+2014-07-21 11:50:39,568 [    930]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 27 ms 
+2014-07-21 11:50:39,582 [    944]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 13 ms 
+2014-07-21 11:50:39,587 [    949]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-07-21 11:50:39,593 [    955]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-07-21 11:50:39,597 [    959]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2014-07-21 11:50:39,600 [    962]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2014-07-21 11:50:39,606 [    968]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/proxy.settings.xml file is null 
+2014-07-21 11:50:39,614 [    976]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2014-07-21 11:50:39,703 [   1065]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2014-07-21 11:50:39,703 [   1065]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 87 ms 
+2014-07-21 11:50:39,729 [   1091]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-07-21 11:50:39,851 [   1213]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 234 ms 
+2014-07-21 11:50:39,851 [   1213]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 234 ms 
+2014-07-21 11:50:39,856 [   1218]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/abbreviations.xml file is null 
+2014-07-21 11:50:39,873 [   1235]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 14 ms 
+2014-07-21 11:50:39,877 [   1239]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2014-07-21 11:50:39,884 [   1246]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2014-07-21 11:50:39,887 [   1249]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-07-21 11:50:39,892 [   1254]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-07-21 11:50:40,063 [   1425]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index filetypes. The index will be rebuilt. 
+2014-07-21 11:50:40,363 [   1725]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 461 ms 
+2014-07-21 11:50:40,385 [   1747]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2014-07-21 11:50:40,385 [   1747]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 21 ms 
+2014-07-21 11:50:40,409 [   1771]   INFO - ij.components.ComponentManager - com.intellij.execution.ExecutorRegistryImpl initialized in 13 ms 
+2014-07-21 11:50:40,444 [   1806]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunnerRegistryImpl initialized in 35 ms 
+2014-07-21 11:50:40,462 [   1824]   INFO - ij.components.ComponentManager - org.intellij.plugins.relaxNG.ApplicationLoader initialized in 17 ms 
+2014-07-21 11:50:40,470 [   1832]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/html5.rnc 
+2014-07-21 11:50:40,470 [   1832]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/xhtml5.rnc 
+2014-07-21 11:50:40,470 [   1832]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/html5chars.ent 
+2014-07-21 11:50:40,564 [   1926]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 16 ms 
+2014-07-21 11:50:40,577 [   1939]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.FileStatusManagerImpl initialized in 12 ms 
+2014-07-21 11:50:40,598 [   1960]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 20 ms 
+2014-07-21 11:50:40,606 [   1968]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 28 ms 
+2014-07-21 11:50:40,607 [   1969]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 30 ms 
+2014-07-21 11:50:40,638 [   2000]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 31 ms 
+2014-07-21 11:50:40,801 [   2163]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2014-07-21 11:50:40,807 [   2169]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2014-07-21 11:50:40,824 [   2186]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 182 ms 
+2014-07-21 11:50:40,843 [   2205]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 18 ms 
+2014-07-21 11:50:40,844 [   2206]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 355 ms 
+2014-07-21 11:50:40,845 [   2207]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-07-21 11:50:40,850 [   2212]   INFO - ij.components.ComponentManager - com.intellij.javaee.DefaultHtmlDoctypeInitialConfigurator initialized in 387 ms 
+2014-07-21 11:50:40,854 [   2216]   INFO - pl.stores.ApplicationStoreImpl - 69 application components initialized in 2184 ms 
+2014-07-21 11:50:41,206 [   2568]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 48 ms 
+2014-07-21 11:50:41,210 [   2572]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 53 ms 
+2014-07-21 11:50:41,212 [   2574]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 56 ms 
+2014-07-21 11:50:41,261 [   2623]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 30 ms 
+2014-07-21 11:50:41,283 [   2645]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 22 ms 
+2014-07-21 11:50:41,302 [   2664]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 13 ms 
+2014-07-21 11:50:41,377 [   2739]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 54 ms 
+2014-07-21 11:50:41,387 [   2749]   INFO - ellij.project.impl.ProjectImpl - 93 project components initialized in 388 ms 
+2014-07-21 11:50:41,387 [   2749]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-07-21 11:50:41,409 [   2771]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $MODULE_FILE$ file is null 
+2014-07-21 11:50:41,438 [   2800]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 19 ms 
+2014-07-21 11:50:41,506 [   2868]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2014-07-21 11:50:41,527 [   2889]   WARN - rSkeletons.PyUserSkeletonsUtil - python-skeletons directory not found in paths: [/home/user/GitHub/intellij-community/intellij-community/config/python-skeletons, /home/user/GitHub/intellij-community/intellij-community/python/helpers/python-skeletons] 
+2014-07-21 11:50:41,530 [   2892]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Stubs 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at com.jetbrains.python.PythonMockSdk.create(PythonMockSdk.java:83)
+	at com.jetbrains.python.PythonMockSdk.findOrCreate(PythonMockSdk.java:51)
+	at com.jetbrains.python.fixtures.PyTestCase$PyLightProjectDescriptor.getSdk(PyTestCase.java:161)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:277)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.roots.ModuleRootModificationUtil.updateModel(ModuleRootModificationUtil.java:152)
+	at com.intellij.testFramework.LightPlatformTestCase$2.run(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.command.WriteCommandAction$Simple.run(WriteCommandAction.java:166)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:38)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1010)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:111)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:124)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:108)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:80)
+	at com.intellij.testFramework.LightPlatformTestCase.initProject(LightPlatformTestCase.java:216)
+	at com.intellij.testFramework.LightPlatformTestCase.doSetup(LightPlatformTestCase.java:376)
+	at com.intellij.testFramework.fixtures.impl.LightIdeaTestFixtureImpl.setUp(LightIdeaTestFixtureImpl.java:51)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl$19.run(CodeInsightTestFixtureImpl.java:1163)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2087)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl.setUp(CodeInsightTestFixtureImpl.java:1159)
+	at com.jetbrains.python.fixtures.PyTestCase.setUp(PyTestCase.java:83)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at com.intellij.testFramework.UsefulTestCase.defaultRunBare(UsefulTestCase.java:331)
+	at com.intellij.testFramework.UsefulTestCase$3.run(UsefulTestCase.java:344)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:241)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-07-21 11:50:41,533 [   2895]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Py.module.name 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at com.jetbrains.python.PythonMockSdk.create(PythonMockSdk.java:84)
+	at com.jetbrains.python.PythonMockSdk.findOrCreate(PythonMockSdk.java:51)
+	at com.jetbrains.python.fixtures.PyTestCase$PyLightProjectDescriptor.getSdk(PyTestCase.java:161)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:277)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.roots.ModuleRootModificationUtil.updateModel(ModuleRootModificationUtil.java:152)
+	at com.intellij.testFramework.LightPlatformTestCase$2.run(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.command.WriteCommandAction$Simple.run(WriteCommandAction.java:166)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:38)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1010)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:111)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:124)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:108)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:80)
+	at com.intellij.testFramework.LightPlatformTestCase.initProject(LightPlatformTestCase.java:216)
+	at com.intellij.testFramework.LightPlatformTestCase.doSetup(LightPlatformTestCase.java:376)
+	at com.intellij.testFramework.fixtures.impl.LightIdeaTestFixtureImpl.setUp(LightIdeaTestFixtureImpl.java:51)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl$19.run(CodeInsightTestFixtureImpl.java:1163)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2087)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl.setUp(CodeInsightTestFixtureImpl.java:1159)
+	at com.jetbrains.python.fixtures.PyTestCase.setUp(PyTestCase.java:83)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at com.intellij.testFramework.UsefulTestCase.defaultRunBare(UsefulTestCase.java:331)
+	at com.intellij.testFramework.UsefulTestCase$3.run(UsefulTestCase.java:344)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:241)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-07-21 11:50:41,604 [   2966]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@5d4e59e9 
+2014-07-21 11:50:41,715 [   3077]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2014-07-21 11:50:41,828 [   3190]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 199 ms 
+2014-07-21 11:50:41,828 [   3190]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 11 files to update 
+2014-07-21 11:50:41,908 [   3270]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 80 ms 
+2014-07-21 11:50:41,943 [   3305]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2014-07-21 11:50:42,263 [   3625]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@41eaec19 
+2014-07-21 11:50:42,324 [   3686]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 61 ms 
+2014-07-21 11:50:42,324 [   3686]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 23 files to update 
+2014-07-21 11:50:43,213 [   4575]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 889 ms 
+2014-07-21 11:50:51,160 [  12522]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 189ms 
+2014-07-21 11:51:51,539 [  72901]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 167ms 
+2014-07-21 11:51:53,394 [  74756]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 173ms 
+2014-07-21 11:52:03,208 [  84570]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 173ms 
+2014-07-21 11:52:16,841 [  98203]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 200ms 
+2014-07-21 11:52:17,729 [  99091]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 188ms 

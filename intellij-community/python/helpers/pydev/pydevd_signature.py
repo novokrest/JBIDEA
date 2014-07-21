@@ -4,7 +4,7 @@ import os
 
 trace._warn = lambda *args: None   # workaround for http://bugs.python.org/issue17143 (PY-8706)
 import gc
-from pydevd_comm import CMD_SIGNATURE_CALL_TRACE, NetCommand
+from pydevd_comm import CMD_SIGNATURE_CALL_TRACE, CMD_SIGNATURE_RETURN_TRACE, NetCommand
 from pydevd_utils import get_type_of_value
 import pydevd_vars
 
@@ -124,27 +124,24 @@ def create_signature_message(signature, return_info=None):
     cmdTextList.append("</call_signature></xml>")
     cmdText = ''.join(cmdTextList)
 
-    # myfile = open('/home/user/txt', 'a')
-    # myfile.writelines(cmdText + '\n=====\n')
-
     return NetCommand(CMD_SIGNATURE_CALL_TRACE, 0, cmdText)
 
 
 def create_return_signature_message(signature, return_info):
     cmdTextList = ["<xml>"]
 
-    cmdTextList.append('<return_signature file="%s" name="%s" return_type=%s>'
+    cmdTextList.append('<return_signature file="%s" name="%s" return_type="%s">'
                        % (pydevd_vars.makeValidXmlValue(signature.file),
                           pydevd_vars.makeValidXmlValue(signature.name),
+                          #pydevd_vars.makeValidXmlValue('str')))
                           pydevd_vars.makeValidXmlValue(return_info)))
 
     cmdTextList.append("</return_signature></xml>")
     cmdText = ''.join(cmdTextList)
 
-    # myfile = open('/home/user/txt', 'a')
-    # myfile.writelines(cmdText + '\n=====\n')
+    print "return command = %s" % cmdText
 
-    return NetCommand(CMD_SIGNATURE_CALL_TRACE, 0, cmdText)
+    return NetCommand(CMD_SIGNATURE_RETURN_TRACE, 0, cmdText)
 
 
 
@@ -175,4 +172,4 @@ def sendSignatureReturnTrace(dbg, frame, filename, return_value): #send return_t
         return_info = get_type_of_value(return_value)
         if not dbg.return_signature_cache_manager.is_repetition(signature, return_info):
             dbg.return_signature_cache_manager.add(signature, return_info)
-            dbg.writer.addCommand(create_signature_message(signature, return_info))
+            dbg.writer.addCommand(create_return_signature_message(signature, return_info))

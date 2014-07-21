@@ -29,7 +29,7 @@ public class PyReturnSignatureTypeProvider extends PyTypeProviderBase {
       PyFunction function = (PyFunction)callable;
       final String typeName = PyReturnSignatureCacheManager.getInstance(function.getProject()).findReturnTypes(function);
       if (typeName != null) {
-        final PyType type = PyTypeParser.getTypeByName(null, typeName);
+        final PyType type = PyTypeParser.getTypeByName(function, typeName);
         if (type != null) {
           return PyDynamicallyEvaluatedType.create(type);
         }

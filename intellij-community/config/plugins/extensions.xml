@@ -1727,6 +1727,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.mm">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.kevoree.modeling.idea.plugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.module">
       <plugins>
         <option name="myPlugins">

@@ -70,6 +70,10 @@ public class PyReturnSignatureCacheManagerImpl extends PyReturnSignatureCacheMan
         }
       });
 
+  public PyReturnSignatureCacheManagerImpl(Project project) {
+    myProject = project;
+  }
+
   private static String readAttributeFromFile(@NotNull VirtualFile file) {
     byte[] data;
     try {
@@ -257,12 +261,12 @@ public class PyReturnSignatureCacheManagerImpl extends PyReturnSignatureCacheMan
           }
         });
       }
-    }, "Cleaning the cache of dynamically collected types", true, myProject);
+    }, "Cleaning the cache of dynamically collected return types", true, myProject);
 
 
     String message;
     if (deleted.get()) {
-      message = "Collected signatures were deleted";
+      message = "Collected return signatures were deleted";
     }
     else {
       message = "Nothing to delete";

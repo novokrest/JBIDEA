@@ -37,7 +37,7 @@ public abstract class PyReturnSignatureCacheManager {
 
   public static PyReturnSignatureCacheManager getInstance(Project project) {
     //return ServiceManager.getService(project, PyReturnSignatureCacheManager.class);
-    return new PyReturnSignatureCacheManagerImpl();
+    return new PyReturnSignatureCacheManagerImpl(project);
   }
 
   @Nullable

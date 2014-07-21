@@ -91,7 +91,7 @@ class PyDBFrame:
         mainDebugger, filename, info, thread = self._args
         try:
             info.is_tracing = True
-            is_first_call = False
+            is_first_call = True
 
             if mainDebugger._finishDebuggingSession:
                 return None
@@ -100,7 +100,7 @@ class PyDBFrame:
                 return None
 
             if event == 'call':
-                is_first_call = isFirstCall(mainDebugger, frame, filename)
+                #is_first_call = isFirstCall(mainDebugger, frame, filename)
                 sendSignatureCallTrace(mainDebugger, frame, filename)
 
             if event == 'return':

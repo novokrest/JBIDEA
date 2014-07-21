@@ -1,0 +1,4 @@
+# PyCharm failed to generate skeletons for these modules.
+# These skeletons will be re-generated automatically
+# when a newer module version or an updated generator becomes available.
+/usr/local/lib/python2.7/dist-packages/coverage/tracer.so = 1.135 1405495640000
