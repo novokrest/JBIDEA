@@ -10,6 +10,8 @@ import os.path
 import sys
 import pydev_log
 from pydevd_signature import sendSignatureCallTrace
+from pydevd_signature import sendSignatureReturnTrace
+from pydevd_signature import isFirstCall
 
 basename = os.path.basename
 
@@ -89,6 +91,7 @@ class PyDBFrame:
         mainDebugger, filename, info, thread = self._args
         try:
             info.is_tracing = True
+            is_first_call = False
 
             if mainDebugger._finishDebuggingSession:
                 return None
@@ -97,7 +100,11 @@ class PyDBFrame:
                 return None
 
             if event == 'call':
+                is_first_call = isFirstCall(mainDebugger, frame, filename)
                 sendSignatureCallTrace(mainDebugger, frame, filename)
+
+            if event == 'return':
+                sendSignatureReturnTrace(mainDebugger, frame, filename, arg)
 
             if event not in ('line', 'call', 'return'):
                 if event == 'exception':
@@ -108,6 +115,9 @@ class PyDBFrame:
                 else:
                 #I believe this can only happen in jython on some frontiers on jython and java code, which we don't want to trace.
                     return None
+
+            if is_first_call:
+                return self.trace_dispatch
 
             if event is not 'exception':
                 breakpoints_for_file = mainDebugger.breakpoints.get(filename)
@@ -121,7 +131,7 @@ class PyDBFrame:
                     can_skip = (info.pydev_step_cmd is None and info.pydev_step_stop is None)\
                     or (info.pydev_step_cmd in (CMD_STEP_RETURN, CMD_STEP_OVER) and info.pydev_step_stop is not frame)
 
-                if  mainDebugger.django_breakpoints:
+                if mainDebugger.django_breakpoints:
                     can_skip = False
 
                 # Let's check to see if we are in a function that has a breakpoint. If we don't have a breakpoint,
@@ -129,6 +139,7 @@ class PyDBFrame:
                 #also, after we hit a breakpoint and go to some other debugging state, we have to force the set trace anyway,
                 #so, that's why the additional checks are there.
                 if not breakpoints_for_file:
+                    #if is first call, we returned trace_dispatch because we want trace RETURN_TYPE
                     if can_skip:
                         if mainDebugger.always_exception_set or mainDebugger.django_exception_break:
                             return self.trace_exception

@@ -15,6 +15,7 @@
  */
 package com.jetbrains.python.debugger;
 
+import com.jetbrains.python.psi.Callable;
 import com.jetbrains.python.psi.PyFunction;
 import com.jetbrains.python.psi.types.*;
 import org.jetbrains.annotations.NotNull;
@@ -23,12 +24,15 @@ import org.jetbrains.annotations.NotNull;
  * Created by user on 7/20/14.
  */
 public class PyReturnSignatureTypeProvider extends PyTypeProviderBase {
-  public PyType getReturnType(@NotNull final PyFunction function, @NotNull TypeEvalContext context) {
-    final String typeName = PyReturnSignatureCacheManager.getInstance(function.getProject()).findReturnTypes(function);
-    if (typeName != null) {
-      final PyType type = PyTypeParser.getTypeByName(null, typeName);
-      if (type != null) {
-        return PyDynamicallyEvaluatedType.create(type);
+  public PyType getReturnType(@NotNull final Callable callable, @NotNull TypeEvalContext context) {
+    if (callable instanceof PyFunction) {
+      PyFunction function = (PyFunction)callable;
+      final String typeName = PyReturnSignatureCacheManager.getInstance(function.getProject()).findReturnTypes(function);
+      if (typeName != null) {
+        final PyType type = PyTypeParser.getTypeByName(null, typeName);
+        if (type != null) {
+          return PyDynamicallyEvaluatedType.create(type);
+        }
       }
     }
     return null;

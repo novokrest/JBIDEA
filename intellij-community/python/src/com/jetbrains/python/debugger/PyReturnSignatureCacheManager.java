@@ -36,7 +36,8 @@ public abstract class PyReturnSignatureCacheManager {
   public static final Logger Log = Logger.getInstance(PyReturnSignatureCacheManager.class.getName());
 
   public static PyReturnSignatureCacheManager getInstance(Project project) {
-    return ServiceManager.getService(PyReturnSignatureCacheManager.class);
+    //return ServiceManager.getService(project, PyReturnSignatureCacheManager.class);
+    return new PyReturnSignatureCacheManagerImpl();
   }
 
   @Nullable

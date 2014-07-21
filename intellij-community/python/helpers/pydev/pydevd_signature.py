@@ -5,6 +5,7 @@ import os
 trace._warn = lambda *args: None   # workaround for http://bugs.python.org/issue17143 (PY-8706)
 import gc
 from pydevd_comm import CMD_SIGNATURE_CALL_TRACE, NetCommand
+from pydevd_utils import get_type_of_value
 import pydevd_vars
 
 class Signature(object):
@@ -25,7 +26,7 @@ class Signature(object):
 class SignatureFactory(object):
     def __init__(self):
         self._caller_cache = {}
-        self.project_roots =  os.getenv('PYCHARM_PROJECT_ROOTS', '').split(os.pathsep)
+        self.project_roots = os.getenv('PYCHARM_PROJECT_ROOTS', '').split(os.pathsep)
 
     def is_in_scope(self, filename):
         filename = os.path.normcase(filename)
@@ -34,8 +35,6 @@ class SignatureFactory(object):
             if filename.startswith(root):
                 return True
         return False
-
-
 
     def create_signature(self, frame):
         try:
@@ -59,7 +58,6 @@ class SignatureFactory(object):
         except:
             import traceback
             traceback.print_exc()
-
 
     def file_module_function_of(self, frame): #this code is take from trace module and fixed to work with new-style classes
         code = frame.f_code
@@ -110,22 +108,71 @@ class SignatureFactory(object):
 
         return filename, modulename, funcname
 
-def create_signature_message(signature):
+
+def create_signature_message(signature, return_info=None):
     cmdTextList = ["<xml>"]
 
     cmdTextList.append('<call_signature file="%s" name="%s">' % (pydevd_vars.makeValidXmlValue(signature.file), pydevd_vars.makeValidXmlValue(signature.name)))
 
-    for arg in signature.args:
-        cmdTextList.append('<arg name="%s" type="%s"></arg>' % (pydevd_vars.makeValidXmlValue(arg[0]), pydevd_vars.makeValidXmlValue(arg[1])))
+    if return_info:
+        cmdTextList.append('<return type="%s"></return>' % pydevd_vars.makeValidXmlValue(return_info))
+
+    else:
+        for arg in signature.args:
+            cmdTextList.append('<arg name="%s" type="%s"></arg>' % (pydevd_vars.makeValidXmlValue(arg[0]), pydevd_vars.makeValidXmlValue(arg[1])))
 
     cmdTextList.append("</call_signature></xml>")
     cmdText = ''.join(cmdTextList)
+
+    # myfile = open('/home/user/txt', 'a')
+    # myfile.writelines(cmdText + '\n=====\n')
+
     return NetCommand(CMD_SIGNATURE_CALL_TRACE, 0, cmdText)
+
+
+def create_return_signature_message(signature, return_info):
+    cmdTextList = ["<xml>"]
+
+    cmdTextList.append('<return_signature file="%s" name="%s" return_type=%s>'
+                       % (pydevd_vars.makeValidXmlValue(signature.file),
+                          pydevd_vars.makeValidXmlValue(signature.name),
+                          pydevd_vars.makeValidXmlValue(return_info)))
+
+    cmdTextList.append("</return_signature></xml>")
+    cmdText = ''.join(cmdTextList)
+
+    # myfile = open('/home/user/txt', 'a')
+    # myfile.writelines(cmdText + '\n=====\n')
+
+    return NetCommand(CMD_SIGNATURE_CALL_TRACE, 0, cmdText)
+
+
+
+def isFirstCall(dbg, frame, filename): # we use it only if dbg has return_cache_manager
+    if dbg.return_signature_cache_manager:
+        if dbg.signature_factory and dbg.signature_factory.is_in_scope(filename) and dbg.call_signature_cache_manager:
+            signature = dbg.signature_factory.create_signature(frame)
+            return dbg.call_signature_cache_manager.is_first_call(signature)
+
+    return False
+
 
 def sendSignatureCallTrace(dbg, frame, filename):
     if dbg.signature_factory:
         if dbg.signature_factory.is_in_scope(filename):
-            dbg.writer.addCommand(create_signature_message(dbg.signature_factory.create_signature(frame)))
+            signature = dbg.signature_factory.create_signature(frame)
+            if dbg.call_signature_cache_manager:
+                if not dbg.call_signature_cache_manager.is_repetition(signature):
+                    dbg.call_signature_cache_manager.add(signature)
+                    dbg.writer.addCommand(create_signature_message(signature))
+            else:
+                dbg.writer.addCommand(create_signature_message(signature))
 
 
-
+def sendSignatureReturnTrace(dbg, frame, filename, return_value): #send return_type only if return_signature_cache_manager exists
+    if dbg.signature_factory and dbg.signature_factory.is_in_scope(filename) and dbg.return_signature_cache_manager:
+        signature = dbg.signature_factory.create_signature(frame)
+        return_info = get_type_of_value(return_value)
+        if not dbg.return_signature_cache_manager.is_repetition(signature, return_info):
+            dbg.return_signature_cache_manager.add(signature, return_info)
+            dbg.writer.addCommand(create_signature_message(signature, return_info))

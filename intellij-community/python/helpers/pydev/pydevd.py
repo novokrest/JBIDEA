@@ -3,6 +3,10 @@ import traceback
 
 from django_debug import DjangoLineBreakpoint
 from pydevd_signature import SignatureFactory
+#!!!!!
+from pydevd_signature_cache_manager import CallSignatureCacheManager
+from pydevd_signature_cache_manager import ReturnSignatureCacheManager
+#!!!!!
 from pydevd_frame import add_exception_to_frame
 import pydev_imports
 from pydevd_breakpoints import * #@UnusedWildImport
@@ -318,6 +322,10 @@ class PyDB:
         self._terminationEventSent = False
         self.force_post_mortem_stop = 0
         self.signature_factory = None
+        #!!!!!
+        self.call_signature_cache_manager = None
+        self.return_signature_cache_manager = None
+        #!!!!!
         self.SetTrace = pydevd_tracing.SetTrace
 
         #this is a dict of thread ids pointing to thread ids. Whenever a command is passed to the java end that
@@ -814,7 +822,7 @@ class PyDB:
                         del self.exception_set[exception]
                         self.always_exception_set.remove(exception)
                     except:
-                        pydev_log.debug("Error while removing exception %s"%sys.exc_info()[0]);
+                        pydev_log.debug("Error while removing exception"%sys.exc_info()[0]);
                     update_exception_hook(self)
 
                 elif cmd_id == CMD_LOAD_SOURCE:
@@ -1725,6 +1733,14 @@ if __name__ == '__main__':
             sys.stderr.write("Collecting run-time type information is not supported for Jython\n")
         else:
             debugger.signature_factory = SignatureFactory()
+
+            #!!!!!
+            file_calls = open('/home/user/call_size', 'w')
+            file_returns = open('/home/user/return_size', 'w')
+            debugger.call_signature_cache_manager = CallSignatureCacheManager('/home/user/call_size')
+            debugger.return_signature_cache_manager = ReturnSignatureCacheManager('/home/user/return_size')
+            #!!!!!
+
 
     debugger.connect(host, port)
 
