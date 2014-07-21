@@ -3549,3 +3549,441 @@ java.lang.Throwable
 2014-07-21 11:52:03,208 [  84570]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 173ms 
 2014-07-21 11:52:16,841 [  98203]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 200ms 
 2014-07-21 11:52:17,729 [  99091]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@241bd8cd; elapsed time was 188ms 
+2014-07-21 14:42:17,713 [      0]   INFO - llij.ide.plugins.PluginManager - 1 plugins initialized in 643 ms 
+2014-07-21 14:42:17,714 [      1]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE 
+2014-07-21 14:42:18,117 [    404]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 31 ms 
+2014-07-21 14:42:18,176 [    463]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=1837629440 
+2014-07-21 14:42:18,290 [    577]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 137 ms 
+2014-07-21 14:42:18,296 [    583]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is disabled 
+2014-07-21 14:42:18,296 [    583]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 143 ms 
+2014-07-21 14:42:18,304 [    591]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 155 ms 
+2014-07-21 14:42:18,412 [    699]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2014-07-21 14:42:18,412 [    699]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 295 ms 
+2014-07-21 14:42:18,434 [    721]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2014-07-21 14:42:18,434 [    721]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 17 ms 
+2014-07-21 14:42:18,505 [    792]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2014-07-21 14:42:18,563 [    850]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 128 ms 
+2014-07-21 14:42:18,616 [    903]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 48 ms 
+2014-07-21 14:42:18,640 [    927]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 23 ms 
+2014-07-21 14:42:18,653 [    940]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 12 ms 
+2014-07-21 14:42:18,657 [    944]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-07-21 14:42:18,662 [    949]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-07-21 14:42:18,666 [    953]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2014-07-21 14:42:18,668 [    955]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2014-07-21 14:42:18,674 [    961]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/proxy.settings.xml file is null 
+2014-07-21 14:42:18,682 [    969]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2014-07-21 14:42:18,768 [   1055]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2014-07-21 14:42:18,768 [   1055]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 84 ms 
+2014-07-21 14:42:18,787 [   1074]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-07-21 14:42:18,897 [   1184]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 213 ms 
+2014-07-21 14:42:18,897 [   1184]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 213 ms 
+2014-07-21 14:42:18,902 [   1189]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/abbreviations.xml file is null 
+2014-07-21 14:42:18,917 [   1204]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 13 ms 
+2014-07-21 14:42:18,921 [   1208]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2014-07-21 14:42:18,927 [   1214]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2014-07-21 14:42:18,930 [   1217]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-07-21 14:42:18,934 [   1221]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-07-21 14:42:35,692 [      0]   INFO - llij.ide.plugins.PluginManager - 1 plugins initialized in 643 ms 
+2014-07-21 14:42:35,693 [      1]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE 
+2014-07-21 14:42:36,099 [    407]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 30 ms 
+2014-07-21 14:42:36,168 [    476]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=1837629440 
+2014-07-21 14:42:36,294 [    602]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 151 ms 
+2014-07-21 14:42:36,299 [    607]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is disabled 
+2014-07-21 14:42:36,300 [    608]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 158 ms 
+2014-07-21 14:42:36,308 [    616]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 169 ms 
+2014-07-21 14:42:36,413 [    721]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2014-07-21 14:42:36,413 [    721]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 314 ms 
+2014-07-21 14:42:36,433 [    741]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2014-07-21 14:42:36,433 [    741]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 17 ms 
+2014-07-21 14:42:36,506 [    814]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2014-07-21 14:42:36,561 [    869]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 128 ms 
+2014-07-21 14:42:36,615 [    923]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 48 ms 
+2014-07-21 14:42:36,639 [    947]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 24 ms 
+2014-07-21 14:42:36,652 [    960]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 12 ms 
+2014-07-21 14:42:36,656 [    964]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-07-21 14:42:36,661 [    969]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-07-21 14:42:36,666 [    974]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2014-07-21 14:42:36,668 [    976]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2014-07-21 14:42:36,674 [    982]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/proxy.settings.xml file is null 
+2014-07-21 14:42:36,682 [    990]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2014-07-21 14:42:36,768 [   1076]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2014-07-21 14:42:36,768 [   1076]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 84 ms 
+2014-07-21 14:42:36,786 [   1094]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-07-21 14:42:36,895 [   1203]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 211 ms 
+2014-07-21 14:42:36,895 [   1203]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 212 ms 
+2014-07-21 14:42:36,900 [   1208]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/abbreviations.xml file is null 
+2014-07-21 14:42:36,916 [   1224]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 14 ms 
+2014-07-21 14:42:36,920 [   1228]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2014-07-21 14:42:36,926 [   1234]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2014-07-21 14:42:36,929 [   1237]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-07-21 14:42:36,933 [   1241]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-07-21 14:42:37,101 [   1409]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index filetypes. The index will be rebuilt. 
+2014-07-21 14:42:37,402 [   1710]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 459 ms 
+2014-07-21 14:42:37,423 [   1731]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2014-07-21 14:42:37,423 [   1731]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 21 ms 
+2014-07-21 14:42:37,446 [   1754]   INFO - ij.components.ComponentManager - com.intellij.execution.ExecutorRegistryImpl initialized in 13 ms 
+2014-07-21 14:42:37,480 [   1788]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunnerRegistryImpl initialized in 34 ms 
+2014-07-21 14:42:37,499 [   1807]   INFO - ij.components.ComponentManager - org.intellij.plugins.relaxNG.ApplicationLoader initialized in 17 ms 
+2014-07-21 14:42:37,506 [   1814]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/html5.rnc 
+2014-07-21 14:42:37,507 [   1815]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/xhtml5.rnc 
+2014-07-21 14:42:37,507 [   1815]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/html5chars.ent 
+2014-07-21 14:42:37,600 [   1908]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 16 ms 
+2014-07-21 14:42:37,612 [   1920]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.FileStatusManagerImpl initialized in 12 ms 
+2014-07-21 14:42:37,634 [   1942]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 20 ms 
+2014-07-21 14:42:37,641 [   1949]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 28 ms 
+2014-07-21 14:42:37,642 [   1950]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 30 ms 
+2014-07-21 14:42:37,674 [   1982]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 31 ms 
+2014-07-21 14:42:37,831 [   2139]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2014-07-21 14:42:37,838 [   2146]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2014-07-21 14:42:37,855 [   2163]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 178 ms 
+2014-07-21 14:42:37,874 [   2182]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 17 ms 
+2014-07-21 14:42:37,876 [   2184]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 351 ms 
+2014-07-21 14:42:37,876 [   2184]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-07-21 14:42:37,882 [   2190]   INFO - ij.components.ComponentManager - com.intellij.javaee.DefaultHtmlDoctypeInitialConfigurator initialized in 382 ms 
+2014-07-21 14:42:37,886 [   2194]   INFO - pl.stores.ApplicationStoreImpl - 69 application components initialized in 2162 ms 
+2014-07-21 14:42:38,227 [   2535]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 44 ms 
+2014-07-21 14:42:38,231 [   2539]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 49 ms 
+2014-07-21 14:42:38,233 [   2541]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 51 ms 
+2014-07-21 14:42:38,282 [   2590]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 32 ms 
+2014-07-21 14:42:38,302 [   2610]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 20 ms 
+2014-07-21 14:42:38,319 [   2627]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 12 ms 
+2014-07-21 14:42:38,387 [   2695]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 49 ms 
+2014-07-21 14:42:38,396 [   2704]   INFO - ellij.project.impl.ProjectImpl - 93 project components initialized in 371 ms 
+2014-07-21 14:42:38,396 [   2704]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-07-21 14:42:38,417 [   2725]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $MODULE_FILE$ file is null 
+2014-07-21 14:42:38,445 [   2753]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 19 ms 
+2014-07-21 14:42:38,524 [   2832]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2014-07-21 14:42:38,544 [   2852]   WARN - rSkeletons.PyUserSkeletonsUtil - python-skeletons directory not found in paths: [/home/user/GitHub/intellij-community/intellij-community/config/python-skeletons, /home/user/GitHub/intellij-community/intellij-community/python/helpers/python-skeletons] 
+2014-07-21 14:42:38,547 [   2855]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Stubs 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at com.jetbrains.python.PythonMockSdk.create(PythonMockSdk.java:83)
+	at com.jetbrains.python.PythonMockSdk.findOrCreate(PythonMockSdk.java:51)
+	at com.jetbrains.python.fixtures.PyTestCase$PyLightProjectDescriptor.getSdk(PyTestCase.java:161)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:277)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.roots.ModuleRootModificationUtil.updateModel(ModuleRootModificationUtil.java:152)
+	at com.intellij.testFramework.LightPlatformTestCase$2.run(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.command.WriteCommandAction$Simple.run(WriteCommandAction.java:166)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:38)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1010)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:111)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:124)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:108)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:80)
+	at com.intellij.testFramework.LightPlatformTestCase.initProject(LightPlatformTestCase.java:216)
+	at com.intellij.testFramework.LightPlatformTestCase.doSetup(LightPlatformTestCase.java:376)
+	at com.intellij.testFramework.fixtures.impl.LightIdeaTestFixtureImpl.setUp(LightIdeaTestFixtureImpl.java:51)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl$19.run(CodeInsightTestFixtureImpl.java:1163)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2087)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl.setUp(CodeInsightTestFixtureImpl.java:1159)
+	at com.jetbrains.python.fixtures.PyTestCase.setUp(PyTestCase.java:83)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at com.intellij.testFramework.UsefulTestCase.defaultRunBare(UsefulTestCase.java:331)
+	at com.intellij.testFramework.UsefulTestCase$3.run(UsefulTestCase.java:344)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:241)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-07-21 14:42:38,550 [   2858]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Py.module.name 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at com.jetbrains.python.PythonMockSdk.create(PythonMockSdk.java:84)
+	at com.jetbrains.python.PythonMockSdk.findOrCreate(PythonMockSdk.java:51)
+	at com.jetbrains.python.fixtures.PyTestCase$PyLightProjectDescriptor.getSdk(PyTestCase.java:161)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:277)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.roots.ModuleRootModificationUtil.updateModel(ModuleRootModificationUtil.java:152)
+	at com.intellij.testFramework.LightPlatformTestCase$2.run(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.command.WriteCommandAction$Simple.run(WriteCommandAction.java:166)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:38)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1010)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:111)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:124)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:108)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:80)
+	at com.intellij.testFramework.LightPlatformTestCase.initProject(LightPlatformTestCase.java:216)
+	at com.intellij.testFramework.LightPlatformTestCase.doSetup(LightPlatformTestCase.java:376)
+	at com.intellij.testFramework.fixtures.impl.LightIdeaTestFixtureImpl.setUp(LightIdeaTestFixtureImpl.java:51)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl$19.run(CodeInsightTestFixtureImpl.java:1163)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2087)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl.setUp(CodeInsightTestFixtureImpl.java:1159)
+	at com.jetbrains.python.fixtures.PyTestCase.setUp(PyTestCase.java:83)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at com.intellij.testFramework.UsefulTestCase.defaultRunBare(UsefulTestCase.java:331)
+	at com.intellij.testFramework.UsefulTestCase$3.run(UsefulTestCase.java:344)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:241)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-07-21 14:42:38,620 [   2928]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@27696c9b 
+2014-07-21 14:42:38,729 [   3037]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2014-07-21 14:42:38,836 [   3144]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 192 ms 
+2014-07-21 14:42:38,837 [   3145]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 11 files to update 
+2014-07-21 14:42:38,885 [   3193]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 48 ms 
+2014-07-21 14:42:38,952 [   3260]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2014-07-21 14:42:39,413 [   3721]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@5f9aa8db 
+2014-07-21 14:42:39,471 [   3779]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 58 ms 
+2014-07-21 14:42:39,471 [   3779]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 23 files to update 
+2014-07-21 14:42:40,373 [   4681]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 902 ms 
+2014-07-21 14:43:30,940 [      0]   INFO - llij.ide.plugins.PluginManager - 1 plugins initialized in 635 ms 
+2014-07-21 14:43:30,940 [      0]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE 
+2014-07-21 14:43:31,343 [    403]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 30 ms 
+2014-07-21 14:43:31,402 [    462]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=1837629440 
+2014-07-21 14:43:31,518 [    578]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 139 ms 
+2014-07-21 14:43:31,523 [    583]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is disabled 
+2014-07-21 14:43:31,523 [    583]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 145 ms 
+2014-07-21 14:43:31,531 [    591]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 157 ms 
+2014-07-21 14:43:31,631 [    691]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2014-07-21 14:43:31,631 [    691]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 288 ms 
+2014-07-21 14:43:31,650 [    710]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2014-07-21 14:43:31,650 [    710]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 17 ms 
+2014-07-21 14:43:31,721 [    781]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2014-07-21 14:43:31,777 [    837]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 126 ms 
+2014-07-21 14:43:31,831 [    891]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 48 ms 
+2014-07-21 14:43:31,855 [    915]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 23 ms 
+2014-07-21 14:43:31,867 [    927]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 12 ms 
+2014-07-21 14:43:31,871 [    931]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-07-21 14:43:31,877 [    937]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-07-21 14:43:31,882 [    942]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2014-07-21 14:43:31,884 [    944]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2014-07-21 14:43:31,890 [    950]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/proxy.settings.xml file is null 
+2014-07-21 14:43:31,898 [    958]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2014-07-21 14:43:31,982 [   1042]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2014-07-21 14:43:31,982 [   1042]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 82 ms 
+2014-07-21 14:43:32,001 [   1061]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-07-21 14:43:32,111 [   1171]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 211 ms 
+2014-07-21 14:43:32,111 [   1171]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 211 ms 
+2014-07-21 14:43:32,115 [   1175]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/abbreviations.xml file is null 
+2014-07-21 14:43:32,131 [   1191]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 13 ms 
+2014-07-21 14:43:32,135 [   1195]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2014-07-21 14:43:32,141 [   1201]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2014-07-21 14:43:32,143 [   1203]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-07-21 14:43:32,148 [   1208]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-07-21 14:43:32,567 [   1627]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 411 ms 
+2014-07-21 14:43:32,591 [   1651]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2014-07-21 14:43:32,591 [   1651]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 23 ms 
+2014-07-21 14:43:32,614 [   1674]   INFO - ij.components.ComponentManager - com.intellij.execution.ExecutorRegistryImpl initialized in 13 ms 
+2014-07-21 14:43:32,647 [   1707]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunnerRegistryImpl initialized in 32 ms 
+2014-07-21 14:43:32,666 [   1726]   INFO - ij.components.ComponentManager - org.intellij.plugins.relaxNG.ApplicationLoader initialized in 17 ms 
+2014-07-21 14:43:32,673 [   1733]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/html5.rnc 
+2014-07-21 14:43:32,673 [   1733]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/xhtml5.rnc 
+2014-07-21 14:43:32,673 [   1733]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /home/user/GitHub/intellij-community/intellij-community/out/production/relaxng/resources/html5-schema/html5chars.ent 
+2014-07-21 14:43:32,766 [   1826]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 15 ms 
+2014-07-21 14:43:32,778 [   1838]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.FileStatusManagerImpl initialized in 12 ms 
+2014-07-21 14:43:32,800 [   1860]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 20 ms 
+2014-07-21 14:43:32,807 [   1867]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 28 ms 
+2014-07-21 14:43:32,809 [   1869]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 29 ms 
+2014-07-21 14:43:32,840 [   1900]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 31 ms 
+2014-07-21 14:43:32,997 [   2057]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2014-07-21 14:43:33,004 [   2064]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2014-07-21 14:43:33,020 [   2080]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 177 ms 
+2014-07-21 14:43:33,039 [   2099]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 17 ms 
+2014-07-21 14:43:33,040 [   2100]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 348 ms 
+2014-07-21 14:43:33,041 [   2101]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-07-21 14:43:33,047 [   2107]   INFO - ij.components.ComponentManager - com.intellij.javaee.DefaultHtmlDoctypeInitialConfigurator initialized in 380 ms 
+2014-07-21 14:43:33,051 [   2111]   INFO - pl.stores.ApplicationStoreImpl - 69 application components initialized in 2082 ms 
+2014-07-21 14:43:33,390 [   2450]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 43 ms 
+2014-07-21 14:43:33,393 [   2453]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 48 ms 
+2014-07-21 14:43:33,396 [   2456]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 51 ms 
+2014-07-21 14:43:33,439 [   2499]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 27 ms 
+2014-07-21 14:43:33,459 [   2519]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 20 ms 
+2014-07-21 14:43:33,475 [   2535]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 11 ms 
+2014-07-21 14:43:33,547 [   2607]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 53 ms 
+2014-07-21 14:43:33,557 [   2617]   INFO - ellij.project.impl.ProjectImpl - 93 project components initialized in 368 ms 
+2014-07-21 14:43:33,557 [   2617]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-07-21 14:43:33,577 [   2637]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $MODULE_FILE$ file is null 
+2014-07-21 14:43:33,605 [   2665]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 19 ms 
+2014-07-21 14:43:33,677 [   2737]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2014-07-21 14:43:33,696 [   2756]   WARN - rSkeletons.PyUserSkeletonsUtil - python-skeletons directory not found in paths: [/home/user/GitHub/intellij-community/intellij-community/config/python-skeletons, /home/user/GitHub/intellij-community/intellij-community/python/helpers/python-skeletons] 
+2014-07-21 14:43:33,699 [   2759]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Stubs 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at com.jetbrains.python.PythonMockSdk.create(PythonMockSdk.java:83)
+	at com.jetbrains.python.PythonMockSdk.findOrCreate(PythonMockSdk.java:51)
+	at com.jetbrains.python.fixtures.PyTestCase$PyLightProjectDescriptor.getSdk(PyTestCase.java:161)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:277)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.roots.ModuleRootModificationUtil.updateModel(ModuleRootModificationUtil.java:152)
+	at com.intellij.testFramework.LightPlatformTestCase$2.run(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.command.WriteCommandAction$Simple.run(WriteCommandAction.java:166)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:38)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1010)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:111)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:124)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:108)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:80)
+	at com.intellij.testFramework.LightPlatformTestCase.initProject(LightPlatformTestCase.java:216)
+	at com.intellij.testFramework.LightPlatformTestCase.doSetup(LightPlatformTestCase.java:376)
+	at com.intellij.testFramework.fixtures.impl.LightIdeaTestFixtureImpl.setUp(LightIdeaTestFixtureImpl.java:51)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl$19.run(CodeInsightTestFixtureImpl.java:1163)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2087)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl.setUp(CodeInsightTestFixtureImpl.java:1159)
+	at com.jetbrains.python.fixtures.PyTestCase.setUp(PyTestCase.java:83)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at com.intellij.testFramework.UsefulTestCase.defaultRunBare(UsefulTestCase.java:331)
+	at com.intellij.testFramework.UsefulTestCase$3.run(UsefulTestCase.java:344)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:241)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-07-21 14:43:33,702 [   2762]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Py.module.name 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at com.jetbrains.python.PythonMockSdk.create(PythonMockSdk.java:84)
+	at com.jetbrains.python.PythonMockSdk.findOrCreate(PythonMockSdk.java:51)
+	at com.jetbrains.python.fixtures.PyTestCase$PyLightProjectDescriptor.getSdk(PyTestCase.java:161)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:277)
+	at com.intellij.testFramework.LightPlatformTestCase$2$2.consume(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.roots.ModuleRootModificationUtil.updateModel(ModuleRootModificationUtil.java:152)
+	at com.intellij.testFramework.LightPlatformTestCase$2.run(LightPlatformTestCase.java:274)
+	at com.intellij.openapi.command.WriteCommandAction$Simple.run(WriteCommandAction.java:166)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:38)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1010)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:111)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:124)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:108)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:80)
+	at com.intellij.testFramework.LightPlatformTestCase.initProject(LightPlatformTestCase.java:216)
+	at com.intellij.testFramework.LightPlatformTestCase.doSetup(LightPlatformTestCase.java:376)
+	at com.intellij.testFramework.fixtures.impl.LightIdeaTestFixtureImpl.setUp(LightIdeaTestFixtureImpl.java:51)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl$19.run(CodeInsightTestFixtureImpl.java:1163)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2087)
+	at com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl.setUp(CodeInsightTestFixtureImpl.java:1159)
+	at com.jetbrains.python.fixtures.PyTestCase.setUp(PyTestCase.java:83)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at com.intellij.testFramework.UsefulTestCase.defaultRunBare(UsefulTestCase.java:331)
+	at com.intellij.testFramework.UsefulTestCase$3.run(UsefulTestCase.java:344)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:241)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-07-21 14:43:33,771 [   2831]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@19a26a1 
+2014-07-21 14:43:33,880 [   2940]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2014-07-21 14:43:33,985 [   3045]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 189 ms 
+2014-07-21 14:43:33,985 [   3045]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 23 files to update 
+2014-07-21 14:43:34,051 [   3111]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 66 ms 
+2014-07-21 14:43:34,117 [   3177]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2014-07-21 14:43:34,484 [   3544]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@62af5cb0 
+2014-07-21 14:43:34,545 [   3605]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 60 ms 
+2014-07-21 14:43:34,545 [   3605]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 23 files to update 
+2014-07-21 14:43:35,548 [   4608]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1003 ms 
+2014-07-21 14:48:20,787 [ 289847]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 149ms 
+2014-07-21 15:02:10,987 [1120047]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 57ms 
+2014-07-21 15:03:09,991 [1179051]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 157ms 
+2014-07-21 15:04:11,532 [1240592]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 172ms 
+2014-07-21 15:04:11,913 [1240973]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 190ms 
+2014-07-21 15:04:17,280 [1246340]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 200ms 
+2014-07-21 15:04:17,936 [1246996]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 186ms 
+2014-07-21 15:04:18,452 [1247512]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 180ms 
+2014-07-21 15:04:18,855 [1247915]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 182ms 
+2014-07-21 15:04:29,843 [1258903]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 192ms 
+2014-07-21 15:05:23,789 [1312849]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 182ms 
+2014-07-21 15:05:35,369 [1324429]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 185ms 
+2014-07-21 15:05:56,653 [1345713]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 316ms 
+2014-07-21 15:05:59,183 [1348243]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 161ms 
+2014-07-21 15:06:00,764 [1349824]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 151ms 
+2014-07-21 15:12:35,696 [1744756]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 375ms 
+2014-07-21 15:13:25,229 [1794289]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 215ms 
+2014-07-21 15:15:02,300 [1891360]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 177ms 
+2014-07-21 15:15:22,386 [1911446]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 177ms 
+2014-07-21 15:16:04,850 [1953910]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 250ms 
+2014-07-21 15:16:18,547 [1967607]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 329ms 
+2014-07-21 15:16:19,873 [1968933]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 177ms 
+2014-07-21 15:16:25,012 [1974072]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 188ms 
+2014-07-21 15:16:28,052 [1977112]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 171ms 
+2014-07-21 15:16:39,213 [1988273]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 181ms 
+2014-07-21 15:16:46,205 [1995265]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 140ms 
+2014-07-21 15:17:01,286 [2010346]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 204ms 
+2014-07-21 15:17:03,268 [2012328]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 171ms 
+2014-07-21 15:17:04,537 [2013597]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 169ms 
+2014-07-21 15:17:05,982 [2015042]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 196ms 
+2014-07-21 15:20:04,920 [2193980]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 189ms 
+2014-07-21 15:25:28,771 [2517831]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 1943ms 
+2014-07-21 15:26:06,130 [2555190]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 299ms 
+2014-07-21 15:26:30,218 [2579278]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 175ms 
+2014-07-21 15:26:48,964 [2598024]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 3641ms 
+2014-07-21 15:26:50,830 [2599890]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 1021ms 
+2014-07-21 15:27:09,786 [2618846]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 192ms 
+2014-07-21 15:27:17,702 [2626762]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 189ms 
+2014-07-21 15:27:21,113 [2630173]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 213ms 
+2014-07-21 15:27:28,124 [2637184]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 292ms 
+2014-07-21 15:27:30,950 [2640010]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 247ms 
+2014-07-21 15:27:33,879 [2642939]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 343ms 
+2014-07-21 15:27:46,963 [2656023]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 1065ms 
+2014-07-21 15:27:52,107 [2661167]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 215ms 
+2014-07-21 15:27:57,441 [2666501]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 182ms 
+2014-07-21 15:27:59,495 [2668555]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 287ms 
+2014-07-21 15:28:03,797 [2672857]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 230ms 
+2014-07-21 15:28:06,488 [2675548]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 181ms 
+2014-07-21 15:28:08,629 [2677689]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 190ms 
+2014-07-21 15:28:10,311 [2679371]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 389ms 
+2014-07-21 15:28:10,537 [2679597]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 225ms 
+2014-07-21 15:28:13,290 [2682350]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 262ms 
+2014-07-21 15:28:20,893 [2689953]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 189ms 
+2014-07-21 15:28:22,836 [2691896]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 193ms 
+2014-07-21 15:28:25,344 [2694404]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 912ms 
+2014-07-21 15:31:26,458 [2875518]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 169ms 
+2014-07-21 15:31:31,579 [2880639]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 202ms 
+2014-07-21 15:32:01,575 [2910635]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 158ms 
+2014-07-21 15:32:44,194 [2953254]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 161ms 
+2014-07-21 15:32:44,532 [2953592]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 131ms 
+2014-07-21 15:33:14,762 [2983822]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 177ms 
+2014-07-21 15:33:22,771 [2991831]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 163ms 
+2014-07-21 15:33:24,634 [2993694]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 177ms 
+2014-07-21 15:33:30,881 [2999941]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 174ms 
+2014-07-21 15:33:45,396 [3014456]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 418ms 
+2014-07-21 15:33:57,054 [3026114]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 11301ms 
+2014-07-21 15:33:57,591 [3026651]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 158ms 
+2014-07-21 15:33:59,718 [3028778]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 166ms 
+2014-07-21 15:34:04,950 [3034010]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 169ms 
+2014-07-21 15:34:05,892 [3034952]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.editor.impl.EditorImpl$RepaintCursorCommand@69968029; elapsed time was 153ms 
+2014-07-21 15:34:11,326 [3040386]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@76eebdde; elapsed time was 148ms 
