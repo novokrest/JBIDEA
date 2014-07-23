@@ -61,6 +61,10 @@
       </value>
     </option>
   </component>
+  <component name="GlobalAntConfiguration">
+    <filtersTableLayout />
+    <propertiesTableLayout />
+  </component>
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
@@ -74,6 +78,15 @@
       </list>
     </option>
     <option name="lastPath" value="$USER_HOME$/PycharmProjects/111" />
+  </component>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/GitHub/Drunkard/DrunkardGame" />
+        <option value="$USER_HOME$/GitHub/Drunkard" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/GitHub/Drunkard/DrunkardGame" />
   </component>
   <component name="Registry">
     <entry key="ide.firstStartup" value="false" />
@@ -103,7 +116,15 @@
     </option>
     <option name="myKnownUpdateChannels">
       <value>
-        <list size="0" />
+        <list size="7">
+          <item index="0" class="java.lang.String" itemvalue="idea90" />
+          <item index="1" class="java.lang.String" itemvalue="IDEA10" />
+          <item index="2" class="java.lang.String" itemvalue="IDEA11" />
+          <item index="3" class="java.lang.String" itemvalue="IDEA12" />
+          <item index="4" class="java.lang.String" itemvalue="IDEA_13_1_EAP" />
+          <item index="5" class="java.lang.String" itemvalue="IDEA13.1" />
+          <item index="6" class="java.lang.String" itemvalue="IDEA_14_EAP" />
+        </list>
       </value>
     </option>
     <option name="myIgnoredBuildNumbers">
@@ -112,13 +133,43 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="0" />
-    <option name="LAST_BUILD_CHECKED" value="" />
+    <option name="LAST_TIME_CHECKED" value="1406129518220" />
+    <option name="LAST_BUILD_CHECKED" value="IC-138.SNAPSHOT" />
     <option name="UPDATE_CHANNEL_TYPE" value="eap" />
   </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general />
+  </component>
+  <component name="XPathView.XPathViewPlugin">
+    <option name="SHOW_IN_TOOLBAR" value="true" />
+    <option name="SHOW_IN_MAIN_MENU" value="true" />
+    <option name="OPEN_NEW_TAB" value="false" />
+    <option name="HIGHLIGHT_RESULTS" value="true" />
+    <option name="SHOW_USAGE_VIEW" value="false" />
+    <option name="SEARCH_SCOPE">
+      <value type="PROJECT" />
+    </option>
+    <option name="MATCH_RECURSIVELY" value="false" />
+    <option name="attributes">
+      <value>
+        <option name="BACKGROUND" value="ffd578" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
+    <option name="contextAttributes">
+      <value>
+        <option name="BACKGROUND" value="c2ffd4" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
+    <option name="scrollToFirst" value="true" />
+    <option name="bUseContextAtCursor" value="true" />
+    <option name="bHighlightStartTagOnly" value="true" />
+    <option name="bAddErrorStripe" value="true" />
+  </component>
+  <component name="XSLT-Support.Configuration">
+    <option name="SHOW_LINKED_FILES" value="true" />
   </component>
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
     <recent_templates>

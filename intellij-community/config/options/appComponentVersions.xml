@@ -1,41 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <versions>
-  <component name="AbbreviationManager" version="1406044581423" />
-  <component name="CodeInsightSettings" version="1406044581425" />
-  <component name="CodeStyleSchemeSettings" version="1406044581425" />
-  <component name="DaemonCodeAnalyzerSettings" version="1406044581425" />
-  <component name="DimensionService" version="1406044581425" />
-  <component name="EditorColorsManagerImpl" version="1406044581425" />
-  <component name="EditorSettings" version="1406044581426" />
-  <component name="Encoding" version="1406044581426" />
-  <component name="ExportableFileTemplateSettings" version="1406044581426" />
-  <component name="ExportableTemplateSettings" version="1405930958150" />
-  <component name="FeatureUsageStatistics" version="1406044581427" />
-  <component name="FileBasedIndex" version="1406044581427" />
+  <component name="AbbreviationManager" version="1406129749437" />
+  <component name="CodeInsightSettings" version="1406129749438" />
+  <component name="CodeStyleSchemeSettings" version="1406129749439" />
+  <component name="CommunityFileTypes" version="1406129749441" />
+  <component name="DaemonCodeAnalyzerSettings" version="1406129749441" />
+  <component name="DimensionService" version="1406129749442" />
+  <component name="EditorColorsManagerImpl" version="1406129749442" />
+  <component name="EditorSettings" version="1406129749442" />
+  <component name="Encoding" version="1406129749442" />
+  <component name="ExportableFileTemplateSettings" version="1406129749443" />
+  <component name="ExportableTemplateSettings" version="1406129749443" />
+  <component name="FeatureUsageStatistics" version="1406129749444" />
+  <component name="FileBasedIndex" version="1406129749444" />
   <component name="FileTypeManager" version="1406044581429" />
-  <component name="FindSettings" version="1406044581430" />
-  <component name="GeneralSettings" version="1406044581430" />
-  <component name="KeymapManager" version="1406044581433" />
-  <component name="LafManager" version="1406044581433" />
-  <component name="NotificationConfiguration" version="1406044581433" />
-  <component name="PluginManagerConfigurable" version="1406012949334" />
-  <component name="ProjectJdkTable" version="1406044581434" />
-  <component name="ProjectManager" version="1406044581434" />
-  <component name="PropertiesComponent" version="1406044581434" />
+  <component name="FindSettings" version="1406129749445" />
+  <component name="GeneralSettings" version="1406129749445" />
+  <component name="GlobalAntConfiguration" version="1406129749446" />
+  <component name="KeymapManager" version="1406129749448" />
+  <component name="LafManager" version="1406129749448" />
+  <component name="NotificationConfiguration" version="1406129749450" />
+  <component name="PathMacrosImpl" version="1406129749450" />
+  <component name="PluginManagerConfigurable" version="1406129749450" />
+  <component name="ProjectJdkTable" version="1406129749450" />
+  <component name="ProjectManager" version="1406129749452" />
+  <component name="PropertiesComponent" version="1406129749452" />
   <component name="PyPackageService" version="1406044581645" />
   <component name="RecentDirectoryProjectsManager" version="1406044581645" />
-  <component name="Registry" version="1406044581646" />
+  <component name="Registry" version="1406129749452" />
   <component name="RunnerLayoutSettings" version="1405931869005" />
   <component name="ShortcutPromoterManager" version="1405928229427" />
-  <component name="StatisticsApplicationUsages" version="1406044581666" />
-  <component name="TemplateSettings" version="1405930958241" />
-  <component name="TodoConfiguration" version="1406044581666" />
-  <component name="UpdatesConfigurable" version="1406044581668" />
-  <component name="UsageTrigger" version="1406044581668" />
-  <component name="UsagesStatistic" version="1406044581670" />
-  <component name="WebBrowsersConfiguration" version="1406044581672" />
-  <component name="WindowManager" version="1406044581672" />
+  <component name="StatisticsApplicationUsages" version="1406129749454" />
+  <component name="TemplateSettings" version="1406129749454" />
+  <component name="TodoConfiguration" version="1406129749454" />
+  <component name="UpdatesConfigurable" version="1406129749456" />
+  <component name="UsageTrigger" version="1406129749456" />
+  <component name="UsagesStatistic" version="1406129749456" />
+  <component name="WebBrowsersConfiguration" version="1406129749457" />
+  <component name="WindowManager" version="1406130167266" />
   <component name="XDebuggerSettings" version="1405931869022" />
-  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl" version="1406044581673" />
+  <component name="XPathView.XPathViewPlugin" version="1406129749458" />
+  <component name="XSLT-Support.Configuration" version="1406129749458" />
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl" version="1406129749459" />
 </versions>
 

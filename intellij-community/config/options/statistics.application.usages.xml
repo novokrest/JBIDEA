@@ -6,8 +6,8 @@
       <project id="untitled" values="PYTHON_MODULE" />
     </group>
     <group name="file-type">
-      <project id="111" values="Python,PLAIN_TEXT,XML,UNKNOWN" />
-      <project id="untitled" values="Python,UNKNOWN,XML,PLAIN_TEXT" />
+      <project id="111" values="Python,UNKNOWN,PLAIN_TEXT,XML" />
+      <project id="untitled" values="UNKNOWN,XML,Python,PLAIN_TEXT" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="111" values="PythonConfigurationType" />
@@ -24,7 +24,7 @@
       <entry feature="execute.PythonConfigurationType.Debug" count="28" />
       <entry feature="execute.PythonConfigurationType.Run" count="1" />
       <entry feature="ide.settings.Python_Debugger" count="1" />
-      <entry feature="ideaapp.started" count="23" />
+      <entry feature="ideaapp.started" count="25" />
     </counts>
   </component>
 </application>

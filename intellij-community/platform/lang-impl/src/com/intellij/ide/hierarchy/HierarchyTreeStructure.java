@@ -54,7 +54,7 @@ public abstract class HierarchyTreeStructure extends AbstractTreeStructure {
   protected final void setBaseElement(@NotNull HierarchyNodeDescriptor baseElement) {
     myBaseDescriptor = baseElement;
     myRoot = baseElement;
-    while(myRoot.getParentDescriptor() != null){
+    while(myRoot.getParentDescriptor() != null) {
       myRoot = (HierarchyNodeDescriptor)myRoot.getParentDescriptor();
     }
   }
