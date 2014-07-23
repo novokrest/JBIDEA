@@ -7263,3 +7263,501 @@ java.lang.IllegalArgumentException: Argument for @NotNull parameter 'project' of
 2014-07-21 12:37:21,722 [  13888]   WARN - ution.process.OSProcessHandler - Cannot kill process tree. Trying to destroy process using Java API. Cmdline:
 /usr/bin/python2.7 /home/user/GitHub/intellij-community/intellij-community/out/production/python-helpers/pydev/pydevd.py --multiproc --save-signatures --client 127.0.0.1 --port 48792 --file /home/user/PycharmProjects/111/module_for_debug.py 
 2014-07-21 12:37:21,765 [  13931]   INFO - s.impl.ProjectManagerComponent - refresh 
+2014-07-22 11:08:43,919 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-07-22 11:08:43,932 [     13]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #138.SNAPSHOT, 22 Jul 2014 11:43) 
+2014-07-22 11:08:43,932 [     13]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-30-generic, amd64) 
+2014-07-22 11:08:43,932 [     13]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_55-b14 (Oracle Corporation) 
+2014-07-22 11:08:43,932 [     13]   INFO -        #com.intellij.idea.Main - JVM: 24.51-b03 (OpenJDK 64-Bit Server VM) 
+2014-07-22 11:08:43,934 [     15]   INFO -        #com.intellij.idea.Main - JVM Args: -ea -Xbootclasspath/p:../out/classes/production/boot -Xmx192m -Didea.is.internal=true -XX:MaxPermSize=150m -Didea.platform.prefix=PyCharmCore -Didea.launcher.port=7532 -Didea.launcher.bin.path=/home/user/IDEA/idea-IU-135.909/bin -Dfile.encoding=UTF-8 
+2014-07-22 11:08:43,960 [     41]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 26 ms 
+2014-07-22 11:08:44,118 [    199]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2014-07-22 11:08:45,083 [   1164]   INFO - llij.ide.plugins.PluginManager - 10 plugins initialized in 798 ms 
+2014-07-22 11:08:45,083 [   1164]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE 
+2014-07-22 11:08:45,083 [   1164]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: CVS Integration (11), Git Integration (8.1), GitHub, ReStructuredText Support (136.SNAPSHOT), Shortcut Promoter (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2014-07-22 11:08:45,288 [   1369]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 32 ms 
+2014-07-22 11:08:45,322 [   1403]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=151; buffer=10; max=158334976 
+2014-07-22 11:08:45,390 [   1471]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 81 ms 
+2014-07-22 11:08:45,393 [   1474]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/user/GitHub/intellij-community/intellij-community/bin/linux/fsnotifier64 
+2014-07-22 11:08:45,400 [   1481]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-07-22 11:08:45,401 [   1482]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 93 ms 
+2014-07-22 11:08:45,407 [   1488]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 103 ms 
+2014-07-22 11:08:45,480 [   1561]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-07-22 11:08:45,484 [   1565]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 195 ms 
+2014-07-22 11:08:45,610 [   1691]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 119 ms 
+2014-07-22 11:08:45,851 [   1932]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 239 ms 
+2014-07-22 11:08:45,905 [   1986]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 41 ms 
+2014-07-22 11:08:45,920 [   2001]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 12 ms 
+2014-07-22 11:08:45,920 [   2001]   INFO - .history.utils.LocalHistoryLog - Checking local history storage... 
+2014-07-22 11:08:45,933 [   2014]   INFO - .history.utils.LocalHistoryLog - Local history storage seems to be ok (took 0 sec) 
+2014-07-22 11:08:45,946 [   2027]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-07-22 11:08:46,031 [   2112]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.laf.LafManagerImpl initialized in 86 ms 
+2014-07-22 11:08:46,082 [   2163]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/proxy.settings.xml file is null 
+2014-07-22 11:08:46,088 [   2169]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-07-22 11:08:46,158 [   2239]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 69 ms 
+2014-07-22 11:08:46,260 [   2341]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 171 ms 
+2014-07-22 11:08:46,260 [   2341]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 171 ms 
+2014-07-22 11:08:46,275 [   2356]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.FocusManagerImpl initialized in 12 ms 
+2014-07-22 11:08:46,342 [   2423]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-07-22 11:08:46,346 [   2427]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-07-22 11:08:46,456 [   2537]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index filetypes. The index will be rebuilt. 
+2014-07-22 11:08:46,660 [   2741]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 286 ms 
+2014-07-22 11:08:46,673 [   2754]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 12 ms 
+2014-07-22 11:08:46,716 [   2797]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-07-22 11:08:46,722 [   2803]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 1615 ms 
+2014-07-22 11:08:46,729 [   2810]   INFO - .intellij.idea.IdeaApplication - App initialization took 4777 ms 
+2014-07-22 11:08:46,842 [   2923]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2014-07-22 11:08:47,511 [   3592]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 20 ms 
+2014-07-22 11:08:47,555 [   3636]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectReloadStateImpl initialized in 40 ms 
+2014-07-22 11:08:47,577 [   3658]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 12 ms 
+2014-07-22 11:08:47,580 [   3661]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 17 ms 
+2014-07-22 11:08:47,582 [   3663]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 19 ms 
+2014-07-22 11:08:47,598 [   3679]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.PsiAwareFileEditorManagerImpl initialized in 12 ms 
+2014-07-22 11:08:47,602 [   3683]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.ToolWindowManagerImpl initialized in 16 ms 
+2014-07-22 11:08:47,616 [   3697]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 11 ms 
+2014-07-22 11:08:47,678 [   3759]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangesViewManager initialized in 42 ms 
+2014-07-22 11:08:47,699 [   3780]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 73 ms 
+2014-07-22 11:08:47,700 [   3781]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 75 ms 
+2014-07-22 11:08:47,701 [   3782]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 76 ms 
+2014-07-22 11:08:47,722 [   3803]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager initialized in 17 ms 
+2014-07-22 11:08:47,901 [   3982]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 170 ms 
+2014-07-22 11:08:47,921 [   4002]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 19 ms 
+2014-07-22 11:08:47,946 [   4027]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 11 ms 
+2014-07-22 11:08:47,985 [   4066]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 28 ms 
+2014-07-22 11:08:48,020 [   4101]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 31 ms 
+2014-07-22 11:08:48,029 [   4110]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2014-07-22 11:08:48,048 [   4129]   INFO - ij.components.ComponentManager - org.zmlx.hg4idea.HgRepositoryWatcher initialized in 24 ms 
+2014-07-22 11:08:48,070 [   4151]   INFO - ij.components.ComponentManager - git4idea.repo.GitRepositoryManager initialized in 19 ms 
+2014-07-22 11:08:48,093 [   4174]   INFO - ij.components.ComponentManager - com.intellij.tasks.impl.TaskManagerImpl initialized in 23 ms 
+2014-07-22 11:08:48,094 [   4175]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 729 ms 
+2014-07-22 11:08:48,171 [   4252]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 60 ms 
+2014-07-22 11:08:48,174 [   4255]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 80 ms 
+2014-07-22 11:08:48,529 [   4610]   INFO - penapi.project.DumbServiceImpl - schedule wait for file watcher 
+2014-07-22 11:08:48,546 [   4627]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: wait for file watcher 
+2014-07-22 11:08:48,546 [   4627]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting started 
+2014-07-22 11:08:48,584 [   4665]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@5a1eee41 
+2014-07-22 11:08:48,594 [   4675]   INFO - penapi.project.DumbServiceImpl - schedule initial refresh 
+2014-07-22 11:08:48,629 [   4710]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting finished 
+2014-07-22 11:08:48,737 [   4818]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@5a1eee41 
+2014-07-22 11:08:48,892 [   4973]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63344 
+2014-07-22 11:08:49,360 [   5441]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2014-07-22 11:08:49,361 [   5442]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2014-07-22 11:08:49,479 [   5560]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-07-22 11:08:50,882 [   6963]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 2128 ms 
+2014-07-22 11:08:50,883 [   6964]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 7363 files to update 
+2014-07-22 11:08:52,971 [   9052]   INFO - s.impl.ProjectManagerComponent - refresh 
+2014-07-22 11:08:56,941 [  13022]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 9636 ms 
+2014-07-22 11:09:05,608 [  21689]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 14725 ms 
+2014-07-22 11:09:05,613 [  21694]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: initial refresh 
+2014-07-22 11:09:05,636 [  21717]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2014-07-22 11:09:05,637 [  21718]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project '/home/user/PycharmProjects/111' 111 
+2014-07-22 11:09:06,080 [  22161]   WARN - rSkeletons.PyUserSkeletonsUtil - python-skeletons directory not found in paths: [/home/user/GitHub/intellij-community/intellij-community/config/python-skeletons, /home/user/GitHub/intellij-community/intellij-community/python/helpers/python-skeletons] 
+2014-07-22 11:09:06,106 [  22187]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2014-07-22 11:09:06,609 [  22690]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2014-07-22 11:09:06,959 [  23040]  ERROR - aemon.impl.PassExecutorService - null 
+java.lang.NullPointerException
+	at com.jetbrains.python.debugger.PyReturnSignatureTypeProvider.getReturnType(PyReturnSignatureTypeProvider.java:30)
+	at com.jetbrains.python.psi.impl.PyFunctionImpl.getReturnType(PyFunctionImpl.java:180)
+	at com.jetbrains.python.psi.types.TypeEvalContext.getReturnType(TypeEvalContext.java:194)
+	at com.jetbrains.python.psi.impl.PyFunctionImpl.getCallType(PyFunctionImpl.java:222)
+	at com.jetbrains.python.psi.impl.PyCallExpressionHelper.getCallType(PyCallExpressionHelper.java:481)
+	at com.jetbrains.python.psi.impl.PyCallExpressionImpl.getType(PyCallExpressionImpl.java:120)
+	at com.jetbrains.python.psi.types.TypeEvalContext.getType(TypeEvalContext.java:167)
+	at com.jetbrains.python.psi.impl.references.PyOperatorReference.resolveMember(PyOperatorReference.java:145)
+	at com.jetbrains.python.psi.impl.references.PyOperatorReference.resolveInner(PyOperatorReference.java:61)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.multiResolveInner(PyReferenceImpl.java:128)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.access$000(PyReferenceImpl.java:59)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl$CachingResolver.resolve(PyReferenceImpl.java:666)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl$CachingResolver.resolve(PyReferenceImpl.java:648)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolve(ResolveCache.java:141)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:169)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:161)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.multiResolve(PyReferenceImpl.java:114)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.resolve(PyReferenceImpl.java:91)
+	at com.jetbrains.python.psi.types.PyTypeChecker.analyzeCall(PyTypeChecker.java:475)
+	at com.jetbrains.python.psi.types.PyTypeChecker.analyzeCallSite(PyTypeChecker.java:507)
+	at com.jetbrains.python.inspections.PyTypeCheckerInspection$Visitor.checkCallSite(PyTypeCheckerInspection.java:87)
+	at com.jetbrains.python.inspections.PyTypeCheckerInspection$Visitor.visitPySubscriptionExpression(PyTypeCheckerInspection.java:70)
+	at com.jetbrains.python.psi.impl.PySubscriptionExpressionImpl.acceptPyVisitor(PySubscriptionExpressionImpl.java:63)
+	at com.jetbrains.python.psi.impl.PyBaseElementImpl.accept(PyBaseElementImpl.java:75)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:74)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$5.process(LocalInspectionsPass.java:382)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$5.process(LocalInspectionsPass.java:377)
+	at com.intellij.concurrency.ApplierCompleter.execAndForkSubTasks(ApplierCompleter.java:119)
+	at com.intellij.concurrency.ApplierCompleter.access$000(ApplierCompleter.java:42)
+	at com.intellij.concurrency.ApplierCompleter$1.run(ApplierCompleter.java:82)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1180)
+	at com.intellij.concurrency.ApplierCompleter$2.run(ApplierCompleter.java:91)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:218)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:217)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:103)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:79)
+	at jsr166e.CountedCompleter.exec(CountedCompleter.java:684)
+	at jsr166e.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at jsr166e.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:858)
+	at jsr166e.ForkJoinPool.scan(ForkJoinPool.java:1687)
+	at jsr166e.ForkJoinPool.runWorker(ForkJoinPool.java:1642)
+	at jsr166e.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:109)
+2014-07-22 11:09:06,961 [  23042]  ERROR - aemon.impl.PassExecutorService - PyCharm Community Edition 138.SNAPSHOT  Build #138.SNAPSHOT 
+2014-07-22 11:09:06,961 [  23042]  ERROR - aemon.impl.PassExecutorService - JDK: 1.7.0_55 
+2014-07-22 11:09:06,961 [  23042]  ERROR - aemon.impl.PassExecutorService - VM: OpenJDK 64-Bit Server VM 
+2014-07-22 11:09:06,961 [  23042]  ERROR - aemon.impl.PassExecutorService - Vendor: Oracle Corporation 
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - OS: Linux 
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - Last Action:  
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - null 
+java.lang.NullPointerException
+	at com.jetbrains.python.debugger.PyReturnSignatureTypeProvider.getReturnType(PyReturnSignatureTypeProvider.java:30)
+	at com.jetbrains.python.psi.impl.PyFunctionImpl.getReturnType(PyFunctionImpl.java:180)
+	at com.jetbrains.python.psi.types.TypeEvalContext.getReturnType(TypeEvalContext.java:194)
+	at com.jetbrains.python.psi.impl.PyFunctionImpl.getCallType(PyFunctionImpl.java:222)
+	at com.jetbrains.python.psi.impl.PyCallExpressionHelper.getCallType(PyCallExpressionHelper.java:481)
+	at com.jetbrains.python.psi.impl.PyCallExpressionImpl.getType(PyCallExpressionImpl.java:120)
+	at com.jetbrains.python.psi.types.TypeEvalContext.getType(TypeEvalContext.java:167)
+	at com.jetbrains.python.psi.impl.references.PyOperatorReference.resolveMember(PyOperatorReference.java:145)
+	at com.jetbrains.python.psi.impl.references.PyOperatorReference.resolveInner(PyOperatorReference.java:61)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.multiResolveInner(PyReferenceImpl.java:128)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.access$000(PyReferenceImpl.java:59)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl$CachingResolver.resolve(PyReferenceImpl.java:666)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl$CachingResolver.resolve(PyReferenceImpl.java:648)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolve(ResolveCache.java:141)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:169)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:161)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.multiResolve(PyReferenceImpl.java:114)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.resolve(PyReferenceImpl.java:91)
+	at com.jetbrains.python.psi.types.PyTypeChecker.analyzeCall(PyTypeChecker.java:475)
+	at com.jetbrains.python.psi.types.PyTypeChecker.analyzeCallSite(PyTypeChecker.java:507)
+	at com.jetbrains.python.inspections.PyTypeCheckerInspection$Visitor.checkCallSite(PyTypeCheckerInspection.java:87)
+	at com.jetbrains.python.inspections.PyTypeCheckerInspection$Visitor.visitPySubscriptionExpression(PyTypeCheckerInspection.java:70)
+	at com.jetbrains.python.psi.impl.PySubscriptionExpressionImpl.acceptPyVisitor(PySubscriptionExpressionImpl.java:63)
+	at com.jetbrains.python.psi.impl.PyBaseElementImpl.accept(PyBaseElementImpl.java:75)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:74)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$5.process(LocalInspectionsPass.java:382)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$5.process(LocalInspectionsPass.java:377)
+	at com.intellij.concurrency.ApplierCompleter.execAndForkSubTasks(ApplierCompleter.java:119)
+	at com.intellij.concurrency.ApplierCompleter.access$000(ApplierCompleter.java:42)
+	at com.intellij.concurrency.ApplierCompleter$1.run(ApplierCompleter.java:82)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1180)
+	at com.intellij.concurrency.ApplierCompleter$2.run(ApplierCompleter.java:91)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:218)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:217)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:103)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:79)
+	at jsr166e.CountedCompleter.exec(CountedCompleter.java:684)
+	at jsr166e.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at jsr166e.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:858)
+	at jsr166e.ForkJoinPool.scan(ForkJoinPool.java:1687)
+	at jsr166e.ForkJoinPool.runWorker(ForkJoinPool.java:1642)
+	at jsr166e.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:109)
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - PyCharm Community Edition 138.SNAPSHOT  Build #138.SNAPSHOT 
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - JDK: 1.7.0_55 
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - VM: OpenJDK 64-Bit Server VM 
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - Vendor: Oracle Corporation 
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - OS: Linux 
+2014-07-22 11:09:06,962 [  23043]  ERROR - aemon.impl.PassExecutorService - Last Action:  
+2014-07-22 11:09:07,426 [  23507]  ERROR - aemon.impl.PassExecutorService - null 
+java.lang.NullPointerException
+	at com.jetbrains.python.debugger.PyReturnSignatureTypeProvider.getReturnType(PyReturnSignatureTypeProvider.java:30)
+	at com.jetbrains.python.psi.impl.PyFunctionImpl.getReturnType(PyFunctionImpl.java:180)
+	at com.jetbrains.python.psi.types.TypeEvalContext.getReturnType(TypeEvalContext.java:194)
+	at com.jetbrains.python.psi.impl.PyFunctionImpl.getCallType(PyFunctionImpl.java:222)
+	at com.jetbrains.python.psi.impl.PyCallExpressionHelper.getCallType(PyCallExpressionHelper.java:481)
+	at com.jetbrains.python.psi.impl.PyCallExpressionImpl.getType(PyCallExpressionImpl.java:120)
+	at com.jetbrains.python.psi.types.TypeEvalContext.getType(TypeEvalContext.java:167)
+	at com.jetbrains.python.psi.impl.references.PyOperatorReference.resolveMember(PyOperatorReference.java:145)
+	at com.jetbrains.python.psi.impl.references.PyOperatorReference.resolveInner(PyOperatorReference.java:61)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.multiResolveInner(PyReferenceImpl.java:128)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.access$000(PyReferenceImpl.java:59)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl$CachingResolver.resolve(PyReferenceImpl.java:666)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl$CachingResolver.resolve(PyReferenceImpl.java:648)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolve(ResolveCache.java:141)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:169)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:161)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.multiResolve(PyReferenceImpl.java:114)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.resolve(PyReferenceImpl.java:91)
+	at com.jetbrains.python.psi.types.PyTypeChecker.analyzeCall(PyTypeChecker.java:475)
+	at com.jetbrains.python.psi.types.PyTypeChecker.analyzeCallSite(PyTypeChecker.java:507)
+	at com.jetbrains.python.inspections.PyTypeCheckerInspection$Visitor.checkCallSite(PyTypeCheckerInspection.java:87)
+	at com.jetbrains.python.inspections.PyTypeCheckerInspection$Visitor.visitPySubscriptionExpression(PyTypeCheckerInspection.java:70)
+	at com.jetbrains.python.psi.impl.PySubscriptionExpressionImpl.acceptPyVisitor(PySubscriptionExpressionImpl.java:63)
+	at com.jetbrains.python.psi.impl.PyBaseElementImpl.accept(PyBaseElementImpl.java:75)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:74)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$5.process(LocalInspectionsPass.java:382)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$5.process(LocalInspectionsPass.java:377)
+	at com.intellij.concurrency.ApplierCompleter.execAndForkSubTasks(ApplierCompleter.java:119)
+	at com.intellij.concurrency.ApplierCompleter.access$000(ApplierCompleter.java:42)
+	at com.intellij.concurrency.ApplierCompleter$1.run(ApplierCompleter.java:82)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1180)
+	at com.intellij.concurrency.ApplierCompleter$2.run(ApplierCompleter.java:91)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:218)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:217)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:103)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:79)
+	at jsr166e.CountedCompleter.exec(CountedCompleter.java:684)
+	at jsr166e.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at jsr166e.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:858)
+	at jsr166e.ForkJoinPool.scan(ForkJoinPool.java:1687)
+	at jsr166e.ForkJoinPool.runWorker(ForkJoinPool.java:1642)
+	at jsr166e.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:109)
+2014-07-22 11:09:07,427 [  23508]  ERROR - aemon.impl.PassExecutorService - PyCharm Community Edition 138.SNAPSHOT  Build #138.SNAPSHOT 
+2014-07-22 11:09:07,427 [  23508]  ERROR - aemon.impl.PassExecutorService - JDK: 1.7.0_55 
+2014-07-22 11:09:07,427 [  23508]  ERROR - aemon.impl.PassExecutorService - VM: OpenJDK 64-Bit Server VM 
+2014-07-22 11:09:07,427 [  23508]  ERROR - aemon.impl.PassExecutorService - Vendor: Oracle Corporation 
+2014-07-22 11:09:07,427 [  23508]  ERROR - aemon.impl.PassExecutorService - OS: Linux 
+2014-07-22 11:09:07,427 [  23508]  ERROR - aemon.impl.PassExecutorService - Last Action:  
+2014-07-22 11:09:07,427 [  23508]  ERROR - aemon.impl.PassExecutorService - null 
+java.lang.NullPointerException
+	at com.jetbrains.python.debugger.PyReturnSignatureTypeProvider.getReturnType(PyReturnSignatureTypeProvider.java:30)
+	at com.jetbrains.python.psi.impl.PyFunctionImpl.getReturnType(PyFunctionImpl.java:180)
+	at com.jetbrains.python.psi.types.TypeEvalContext.getReturnType(TypeEvalContext.java:194)
+	at com.jetbrains.python.psi.impl.PyFunctionImpl.getCallType(PyFunctionImpl.java:222)
+	at com.jetbrains.python.psi.impl.PyCallExpressionHelper.getCallType(PyCallExpressionHelper.java:481)
+	at com.jetbrains.python.psi.impl.PyCallExpressionImpl.getType(PyCallExpressionImpl.java:120)
+	at com.jetbrains.python.psi.types.TypeEvalContext.getType(TypeEvalContext.java:167)
+	at com.jetbrains.python.psi.impl.references.PyOperatorReference.resolveMember(PyOperatorReference.java:145)
+	at com.jetbrains.python.psi.impl.references.PyOperatorReference.resolveInner(PyOperatorReference.java:61)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.multiResolveInner(PyReferenceImpl.java:128)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.access$000(PyReferenceImpl.java:59)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl$CachingResolver.resolve(PyReferenceImpl.java:666)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl$CachingResolver.resolve(PyReferenceImpl.java:648)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolve(ResolveCache.java:141)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:169)
+	at com.intellij.psi.impl.source.resolve.ResolveCache.resolveWithCaching(ResolveCache.java:161)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.multiResolve(PyReferenceImpl.java:114)
+	at com.jetbrains.python.psi.impl.references.PyReferenceImpl.resolve(PyReferenceImpl.java:91)
+	at com.jetbrains.python.psi.types.PyTypeChecker.analyzeCall(PyTypeChecker.java:475)
+	at com.jetbrains.python.psi.types.PyTypeChecker.analyzeCallSite(PyTypeChecker.java:507)
+	at com.jetbrains.python.inspections.PyTypeCheckerInspection$Visitor.checkCallSite(PyTypeCheckerInspection.java:87)
+	at com.jetbrains.python.inspections.PyTypeCheckerInspection$Visitor.visitPySubscriptionExpression(PyTypeCheckerInspection.java:70)
+	at com.jetbrains.python.psi.impl.PySubscriptionExpressionImpl.acceptPyVisitor(PySubscriptionExpressionImpl.java:63)
+	at com.jetbrains.python.psi.impl.PyBaseElementImpl.accept(PyBaseElementImpl.java:75)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:74)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$5.process(LocalInspectionsPass.java:382)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$5.process(LocalInspectionsPass.java:377)
+	at com.intellij.concurrency.ApplierCompleter.execAndForkSubTasks(ApplierCompleter.java:119)
+	at com.intellij.concurrency.ApplierCompleter.access$000(ApplierCompleter.java:42)
+	at com.intellij.concurrency.ApplierCompleter$1.run(ApplierCompleter.java:82)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1180)
+	at com.intellij.concurrency.ApplierCompleter$2.run(ApplierCompleter.java:91)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:218)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:217)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:103)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:79)
+	at jsr166e.CountedCompleter.exec(CountedCompleter.java:684)
+	at jsr166e.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at jsr166e.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:858)
+	at jsr166e.ForkJoinPool.scan(ForkJoinPool.java:1687)
+	at jsr166e.ForkJoinPool.runWorker(ForkJoinPool.java:1642)
+	at jsr166e.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:109)
+2014-07-22 11:09:07,428 [  23509]  ERROR - aemon.impl.PassExecutorService - PyCharm Community Edition 138.SNAPSHOT  Build #138.SNAPSHOT 
+2014-07-22 11:09:07,428 [  23509]  ERROR - aemon.impl.PassExecutorService - JDK: 1.7.0_55 
+2014-07-22 11:09:07,428 [  23509]  ERROR - aemon.impl.PassExecutorService - VM: OpenJDK 64-Bit Server VM 
+2014-07-22 11:09:07,428 [  23509]  ERROR - aemon.impl.PassExecutorService - Vendor: Oracle Corporation 
+2014-07-22 11:09:07,428 [  23509]  ERROR - aemon.impl.PassExecutorService - OS: Linux 
+2014-07-22 11:09:07,428 [  23509]  ERROR - aemon.impl.PassExecutorService - Last Action:  
+2014-07-22 11:09:12,677 [  28758]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2014-07-22 11:09:12,677 [  28758]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2014-07-22 11:09:12,866 [  28947]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 185 ms 
+2014-07-22 11:09:12,868 [  28949]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/user/GitHub/intellij-community/intellij-community 
+2014-07-22 11:09:12,868 [  28949]   INFO - .skeletons.PySkeletonRefresher - Pregenerated skeletons root is /home/user/GitHub/intellij-community/intellij-community/python/skeletons 
+2014-07-22 11:09:12,868 [  28949]   INFO - .skeletons.PySkeletonRefresher - Not found pregenerated skeletons at /home/user/GitHub/intellij-community/intellij-community/python/skeletons/skeletons-nix-391-python-2.7.6.zip 
+2014-07-22 11:09:12,909 [  28990]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 40 ms 
+2014-07-22 11:09:13,109 [  29190]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 18 ms 
+2014-07-22 19:53:31,867 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-07-22 19:53:31,881 [     14]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #138.SNAPSHOT, 22 Jul 2014 19:31) 
+2014-07-22 19:53:31,881 [     14]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-30-generic, amd64) 
+2014-07-22 19:53:31,881 [     14]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_55-b14 (Oracle Corporation) 
+2014-07-22 19:53:31,882 [     15]   INFO -        #com.intellij.idea.Main - JVM: 24.51-b03 (OpenJDK 64-Bit Server VM) 
+2014-07-22 19:53:31,884 [     17]   INFO -        #com.intellij.idea.Main - JVM Args: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:40425,suspend=y,server=n -ea -Xbootclasspath/p:../out/classes/production/boot -Xmx192m -Didea.is.internal=true -XX:MaxPermSize=150m -Didea.platform.prefix=PyCharmCore -javaagent:/home/user/IDEA/idea-IU-135.909/plugins/Groovy/lib/agent/gragent.jar -Dfile.encoding=UTF-8 
+2014-07-22 19:53:31,913 [     46]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 29 ms 
+2014-07-22 19:53:32,079 [    212]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2014-07-22 19:53:33,154 [   1287]   INFO - llij.ide.plugins.PluginManager - 10 plugins initialized in 870 ms 
+2014-07-22 19:53:33,154 [   1287]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE 
+2014-07-22 19:53:33,154 [   1287]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: CVS Integration (11), Git Integration (8.1), GitHub, ReStructuredText Support (136.SNAPSHOT), Shortcut Promoter (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2014-07-22 19:53:33,378 [   1511]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 34 ms 
+2014-07-22 19:53:33,417 [   1550]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=151; buffer=10; max=158334976 
+2014-07-22 19:53:33,495 [   1628]   INFO - tellij.util.io.storage.Storage - Records table for '/home/user/GitHub/intellij-community/intellij-community/system/caches/attrib.dat.storageData' haven't been closed correctly. Rebuild required. 
+2014-07-22 19:53:33,497 [   1630]   INFO - tellij.util.io.storage.Storage - Records table for '/home/user/GitHub/intellij-community/intellij-community/system/caches/content.dat.storageRecordIndex' haven't been closed correctly. Rebuild required. 
+2014-07-22 19:53:33,513 [   1646]   INFO - ellij.vfs.persistent.FSRecords - Filesystem storage is corrupted or does not exist. [Re]Building. Reason: FS repository version mismatch 
+2014-07-22 19:53:33,518 [   1651]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2014-07-22 19:53:33,524 [   1657]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 123 ms 
+2014-07-22 19:53:33,527 [   1660]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/user/GitHub/intellij-community/intellij-community/bin/linux/fsnotifier64 
+2014-07-22 19:53:33,536 [   1669]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-07-22 19:53:33,537 [   1670]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 135 ms 
+2014-07-22 19:53:33,542 [   1675]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 145 ms 
+2014-07-22 19:53:33,635 [   1768]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-07-22 19:53:33,640 [   1773]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 260 ms 
+2014-07-22 19:53:33,658 [   1791]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 13 ms 
+2014-07-22 19:53:33,749 [   1882]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 89 ms 
+2014-07-22 19:53:33,779 [   1912]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 18 ms 
+2014-07-22 19:53:33,782 [   1915]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2014-07-22 19:53:33,822 [   1955]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 42 ms 
+2014-07-22 19:53:33,822 [   1955]   INFO - .history.utils.LocalHistoryLog - Checking local history storage... 
+2014-07-22 19:53:33,834 [   1967]   INFO - .history.utils.LocalHistoryLog - Local history storage seems to be ok (took 0 sec) 
+2014-07-22 19:53:33,844 [   1977]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 11 ms 
+2014-07-22 19:53:33,851 [   1984]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-07-22 19:53:33,955 [   2088]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.laf.LafManagerImpl initialized in 104 ms 
+2014-07-22 19:53:33,987 [   2120]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/proxy.settings.xml file is null 
+2014-07-22 19:53:34,013 [   2146]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-07-22 19:53:34,090 [   2223]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 74 ms 
+2014-07-22 19:53:34,210 [   2343]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 195 ms 
+2014-07-22 19:53:34,210 [   2343]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 195 ms 
+2014-07-22 19:53:34,229 [   2362]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.FocusManagerImpl initialized in 14 ms 
+2014-07-22 19:53:34,301 [   2434]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-07-22 19:53:34,305 [   2438]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-07-22 19:53:35,754 [   3887]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 1415 ms 
+2014-07-22 19:53:35,996 [   4129]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 240 ms 
+2014-07-22 19:53:36,053 [   4186]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-07-22 19:53:36,079 [   4212]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 2899 ms 
+2014-07-22 19:53:36,088 [   4221]   INFO - .intellij.idea.IdeaApplication - App initialization took 6288 ms 
+2014-07-22 19:53:36,207 [   4340]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2014-07-22 19:53:36,918 [   5051]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 21 ms 
+2014-07-22 19:53:36,949 [   5082]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectReloadStateImpl initialized in 26 ms 
+2014-07-22 19:53:36,977 [   5110]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 16 ms 
+2014-07-22 19:53:36,981 [   5114]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 21 ms 
+2014-07-22 19:53:36,985 [   5118]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 25 ms 
+2014-07-22 19:53:37,006 [   5139]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.PsiAwareFileEditorManagerImpl initialized in 16 ms 
+2014-07-22 19:53:37,012 [   5145]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.ToolWindowManagerImpl initialized in 22 ms 
+2014-07-22 19:53:37,035 [   5168]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 19 ms 
+2014-07-22 19:53:37,186 [   5319]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangesViewManager initialized in 125 ms 
+2014-07-22 19:53:37,216 [   5349]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 169 ms 
+2014-07-22 19:53:37,218 [   5351]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 172 ms 
+2014-07-22 19:53:37,219 [   5352]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 173 ms 
+2014-07-22 19:53:37,289 [   5422]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager initialized in 67 ms 
+2014-07-22 19:53:37,488 [   5621]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 189 ms 
+2014-07-22 19:53:37,510 [   5643]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 22 ms 
+2014-07-22 19:53:37,524 [   5657]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 13 ms 
+2014-07-22 19:53:37,597 [   5730]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 50 ms 
+2014-07-22 19:53:37,637 [   5770]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 36 ms 
+2014-07-22 19:53:37,649 [   5782]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2014-07-22 19:53:37,671 [   5804]   INFO - ij.components.ComponentManager - org.zmlx.hg4idea.HgRepositoryWatcher initialized in 28 ms 
+2014-07-22 19:53:37,695 [   5828]   INFO - ij.components.ComponentManager - git4idea.repo.GitRepositoryManager initialized in 21 ms 
+2014-07-22 19:53:37,729 [   5862]   INFO - ij.components.ComponentManager - com.intellij.tasks.impl.TaskManagerImpl initialized in 34 ms 
+2014-07-22 19:53:37,731 [   5864]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 1006 ms 
+2014-07-22 19:53:37,820 [   5953]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 53 ms 
+2014-07-22 19:53:37,823 [   5956]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 92 ms 
+2014-07-22 19:53:38,293 [   6426]   INFO - penapi.project.DumbServiceImpl - schedule wait for file watcher 
+2014-07-22 19:53:38,312 [   6445]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: wait for file watcher 
+2014-07-22 19:53:38,316 [   6449]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting started 
+2014-07-22 19:53:38,368 [   6501]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@28080c55 
+2014-07-22 19:53:38,449 [   6582]   INFO - penapi.project.DumbServiceImpl - schedule initial refresh 
+2014-07-22 19:53:38,457 [   6590]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting finished 
+2014-07-22 19:53:38,532 [   6665]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@28080c55 
+2014-07-22 19:53:38,750 [   6883]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63344 
+2014-07-22 19:53:39,098 [   7231]   WARN - ateSettings.impl.UpdateChecker - Connection failed. Please check your network connection and try again. 
+2014-07-22 19:53:39,148 [   7281]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2014-07-22 19:53:39,149 [   7282]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2014-07-22 19:53:39,291 [   7424]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-07-22 19:53:43,518 [  11651]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6849 ms 
+2014-07-22 19:53:46,204 [  14337]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 7649 ms 
+2014-07-22 19:53:46,205 [  14338]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 8158 files to update 
+2014-07-22 19:53:49,536 [  17669]   WARN - rSkeletons.PyUserSkeletonsUtil - python-skeletons directory not found in paths: [/home/user/GitHub/intellij-community/intellij-community/config/python-skeletons, /home/user/GitHub/intellij-community/intellij-community/python/helpers/python-skeletons] 
+2014-07-22 19:54:13,282 [  41415]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 27077 ms 
+2014-07-22 19:54:13,306 [  41439]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: initial refresh 
+2014-07-22 19:54:13,324 [  41457]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2014-07-22 19:54:13,325 [  41458]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project '/home/user/PycharmProjects/111' 111 
+2014-07-22 19:54:14,706 [  42839]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2014-07-22 19:54:16,438 [  44571]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2014-07-22 19:54:20,339 [  48472]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2014-07-22 19:54:20,339 [  48472]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2014-07-22 19:54:20,609 [  48742]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 265 ms 
+2014-07-22 19:54:20,631 [  48764]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/user/GitHub/intellij-community/intellij-community 
+2014-07-22 19:54:20,632 [  48765]   INFO - .skeletons.PySkeletonRefresher - Pregenerated skeletons root is /home/user/GitHub/intellij-community/intellij-community/python/skeletons 
+2014-07-22 19:54:20,632 [  48765]   INFO - .skeletons.PySkeletonRefresher - Not found pregenerated skeletons at /home/user/GitHub/intellij-community/intellij-community/python/skeletons/skeletons-nix-391-python-2.7.6.zip 
+2014-07-22 19:54:20,697 [  48830]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 55 ms 
+2014-07-22 19:54:21,409 [  49542]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 42 ms 
+2014-07-22 19:56:08,430 [ 156563]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@657bb3ad; elapsed time was 229ms 
+2014-07-22 19:56:08,713 [ 156846]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.diagnostic.MessagePool$MessageGrouper@69df23f7; elapsed time was 281ms 
+2014-07-22 19:56:24,259 [ 172392]   INFO - s.impl.ProjectManagerComponent - refresh 
+2014-07-22 19:56:50,787 [ 198920]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@657bb3ad; elapsed time was 301ms 
+2014-07-22 20:01:34,732 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-07-22 20:01:34,746 [     14]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #138.SNAPSHOT, 22 Jul 2014 20:34) 
+2014-07-22 20:01:34,746 [     14]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-30-generic, amd64) 
+2014-07-22 20:01:34,746 [     14]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_55-b14 (Oracle Corporation) 
+2014-07-22 20:01:34,746 [     14]   INFO -        #com.intellij.idea.Main - JVM: 24.51-b03 (OpenJDK 64-Bit Server VM) 
+2014-07-22 20:01:34,748 [     16]   INFO -        #com.intellij.idea.Main - JVM Args: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:33255,suspend=y,server=n -ea -Xbootclasspath/p:../out/classes/production/boot -Xmx192m -Didea.is.internal=true -XX:MaxPermSize=150m -Didea.platform.prefix=PyCharmCore -javaagent:/home/user/IDEA/idea-IU-135.909/plugins/Groovy/lib/agent/gragent.jar -Dfile.encoding=UTF-8 
+2014-07-22 20:01:34,777 [     45]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 29 ms 
+2014-07-22 20:01:34,939 [    207]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2014-07-22 20:01:35,981 [   1249]   INFO - llij.ide.plugins.PluginManager - 10 plugins initialized in 849 ms 
+2014-07-22 20:01:35,982 [   1250]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE 
+2014-07-22 20:01:35,982 [   1250]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: CVS Integration (11), Git Integration (8.1), GitHub, ReStructuredText Support (136.SNAPSHOT), Shortcut Promoter (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2014-07-22 20:01:36,200 [   1468]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 33 ms 
+2014-07-22 20:01:36,235 [   1503]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=151; buffer=10; max=158334976 
+2014-07-22 20:01:36,326 [   1594]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 106 ms 
+2014-07-22 20:01:36,329 [   1597]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/user/GitHub/intellij-community/intellij-community/bin/linux/fsnotifier64 
+2014-07-22 20:01:36,338 [   1606]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-07-22 20:01:36,338 [   1606]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 118 ms 
+2014-07-22 20:01:36,344 [   1612]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 128 ms 
+2014-07-22 20:01:36,415 [   1683]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-07-22 20:01:36,420 [   1688]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 218 ms 
+2014-07-22 20:01:36,436 [   1704]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 11 ms 
+2014-07-22 20:01:36,526 [   1794]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 89 ms 
+2014-07-22 20:01:36,554 [   1822]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 18 ms 
+2014-07-22 20:01:36,568 [   1836]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 11 ms 
+2014-07-22 20:01:36,568 [   1836]   INFO - .history.utils.LocalHistoryLog - Checking local history storage... 
+2014-07-22 20:01:36,573 [   1841]   INFO - .history.utils.LocalHistoryLog - Local history storage seems to be ok (took 0 sec) 
+2014-07-22 20:01:36,595 [   1863]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-07-22 20:01:36,666 [   1934]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.laf.LafManagerImpl initialized in 71 ms 
+2014-07-22 20:01:36,726 [   1994]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/proxy.settings.xml file is null 
+2014-07-22 20:01:36,747 [   2015]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-07-22 20:01:36,824 [   2092]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 75 ms 
+2014-07-22 20:01:36,946 [   2214]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 197 ms 
+2014-07-22 20:01:36,946 [   2214]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 197 ms 
+2014-07-22 20:01:36,965 [   2233]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.FocusManagerImpl initialized in 13 ms 
+2014-07-22 20:01:37,040 [   2308]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-07-22 20:01:37,045 [   2313]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-07-22 20:01:37,298 [   2566]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 216 ms 
+2014-07-22 20:01:37,318 [   2586]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 18 ms 
+2014-07-22 20:01:37,388 [   2656]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-07-22 20:01:37,396 [   2664]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 1391 ms 
+2014-07-22 20:01:37,403 [   2671]   INFO - .intellij.idea.IdeaApplication - App initialization took 4670 ms 
+2014-07-22 20:01:37,522 [   2790]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2014-07-22 20:01:38,219 [   3487]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 20 ms 
+2014-07-22 20:01:38,238 [   3506]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectReloadStateImpl initialized in 16 ms 
+2014-07-22 20:01:38,263 [   3531]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 14 ms 
+2014-07-22 20:01:38,267 [   3535]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 19 ms 
+2014-07-22 20:01:38,269 [   3537]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 21 ms 
+2014-07-22 20:01:38,286 [   3554]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.PsiAwareFileEditorManagerImpl initialized in 13 ms 
+2014-07-22 20:01:38,291 [   3559]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.ToolWindowManagerImpl initialized in 18 ms 
+2014-07-22 20:01:38,307 [   3575]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 13 ms 
+2014-07-22 20:01:38,408 [   3676]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangesViewManager initialized in 79 ms 
+2014-07-22 20:01:38,430 [   3698]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 114 ms 
+2014-07-22 20:01:38,432 [   3700]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 117 ms 
+2014-07-22 20:01:38,433 [   3701]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 118 ms 
+2014-07-22 20:01:38,466 [   3734]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager initialized in 30 ms 
+2014-07-22 20:01:38,680 [   3948]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 203 ms 
+2014-07-22 20:01:38,701 [   3969]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 20 ms 
+2014-07-22 20:01:38,769 [   4037]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 32 ms 
+2014-07-22 20:01:38,806 [   4074]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 35 ms 
+2014-07-22 20:01:38,819 [   4087]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2014-07-22 20:01:38,841 [   4109]   INFO - ij.components.ComponentManager - org.zmlx.hg4idea.HgRepositoryWatcher initialized in 28 ms 
+2014-07-22 20:01:38,864 [   4132]   INFO - ij.components.ComponentManager - git4idea.repo.GitRepositoryManager initialized in 21 ms 
+2014-07-22 20:01:38,890 [   4158]   INFO - ij.components.ComponentManager - com.intellij.tasks.impl.TaskManagerImpl initialized in 25 ms 
+2014-07-22 20:01:38,891 [   4159]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 865 ms 
+2014-07-22 20:01:38,956 [   4224]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 47 ms 
+2014-07-22 20:01:38,960 [   4228]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 69 ms 
+2014-07-22 20:01:39,355 [   4623]   INFO - penapi.project.DumbServiceImpl - schedule wait for file watcher 
+2014-07-22 20:01:39,374 [   4642]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: wait for file watcher 
+2014-07-22 20:01:39,452 [   4720]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2014-07-22 20:01:39,453 [   4721]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project '/home/user/PycharmProjects/111' 111 
+2014-07-22 20:01:39,487 [   4755]   INFO - penapi.project.DumbServiceImpl - schedule com.intellij.util.indexing.UnindexedFilesUpdater@689e4702 
+2014-07-22 20:01:39,867 [   5135]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: com.intellij.util.indexing.UnindexedFilesUpdater@689e4702 
+2014-07-22 20:01:39,874 [   5142]   INFO - penapi.project.DumbServiceImpl - schedule initial refresh 
+2014-07-22 20:01:40,167 [   5435]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63344 
+2014-07-22 20:01:40,460 [   5728]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2014-07-22 20:01:40,461 [   5729]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2014-07-22 20:01:40,562 [   5830]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-07-22 20:01:40,749 [   6017]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 873 ms 
+2014-07-22 20:01:40,860 [   6128]   INFO - penapi.project.DumbServiceImpl - Running dumb mode task: initial refresh 
+2014-07-22 20:01:40,878 [   6146]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2014-07-22 20:01:40,879 [   6147]   INFO - g.FileBasedIndexProjectHandler - Has changed files: false; project=Project '/home/user/PycharmProjects/111' 111 
+2014-07-22 20:01:42,935 [   8203]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2014-07-22 20:01:43,040 [   8308]   WARN - rSkeletons.PyUserSkeletonsUtil - python-skeletons directory not found in paths: [/home/user/GitHub/intellij-community/intellij-community/config/python-skeletons, /home/user/GitHub/intellij-community/intellij-community/python/helpers/python-skeletons] 
+2014-07-22 20:01:43,663 [   8931]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 5677 ms 
+2014-07-22 20:01:43,947 [   9215]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2014-07-22 20:01:48,161 [  13429]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2014-07-22 20:01:48,161 [  13429]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2014-07-22 20:01:48,357 [  13625]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 189 ms 
+2014-07-22 20:01:48,362 [  13630]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/user/GitHub/intellij-community/intellij-community 
+2014-07-22 20:01:48,362 [  13630]   INFO - .skeletons.PySkeletonRefresher - Pregenerated skeletons root is /home/user/GitHub/intellij-community/intellij-community/python/skeletons 
+2014-07-22 20:01:48,362 [  13630]   INFO - .skeletons.PySkeletonRefresher - Not found pregenerated skeletons at /home/user/GitHub/intellij-community/intellij-community/python/skeletons/skeletons-nix-391-python-2.7.6.zip 
+2014-07-22 20:01:48,387 [  13655]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 24 ms 
+2014-07-22 20:01:49,080 [  14348]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 18 ms 

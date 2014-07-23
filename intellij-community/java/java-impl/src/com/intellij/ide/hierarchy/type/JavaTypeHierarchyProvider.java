@@ -32,6 +32,7 @@ import org.jetbrains.annotations.NotNull;
  */
 public class JavaTypeHierarchyProvider implements HierarchyProvider {
   private static final Logger LOG = Logger.getInstance("#com.intellij.ide.hierarchy.type.JavaTypeHierarchyProvider");
+
   public PsiElement getTarget(@NotNull final DataContext dataContext) {
     final Project project = CommonDataKeys.PROJECT.getData(dataContext);
     if (project == null) return null;
