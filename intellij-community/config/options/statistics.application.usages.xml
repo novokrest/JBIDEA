@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="StatisticsApplicationUsages">
+    <group name="language-level">
+      <project id="DrunkardGame" values="JDK_1_6" />
+    </group>
     <group name="module type">
       <project id="111" values="PYTHON_MODULE" />
       <project id="untitled" values="PYTHON_MODULE" />
+      <project id="DrunkardGame" values="JAVA_MODULE" />
+    </group>
+    <group name="vcs">
+      <project id="DrunkardGame" values="Git" />
     </group>
     <group name="file-type">
-      <project id="111" values="Python,UNKNOWN,PLAIN_TEXT,XML" />
-      <project id="untitled" values="UNKNOWN,XML,Python,PLAIN_TEXT" />
+      <project id="111" values="XML,UNKNOWN,PLAIN_TEXT,Python" />
+      <project id="untitled" values="PLAIN_TEXT,UNKNOWN,XML,Python" />
+      <project id="DrunkardGame" values="PLAIN_TEXT,IDEA_MODULE,JAVA,UNKNOWN,XML" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="111" values="PythonConfigurationType" />
@@ -24,7 +32,7 @@
       <entry feature="execute.PythonConfigurationType.Debug" count="28" />
       <entry feature="execute.PythonConfigurationType.Run" count="1" />
       <entry feature="ide.settings.Python_Debugger" count="1" />
-      <entry feature="ideaapp.started" count="25" />
+      <entry feature="ideaapp.started" count="37" />
     </counts>
   </component>
 </application>

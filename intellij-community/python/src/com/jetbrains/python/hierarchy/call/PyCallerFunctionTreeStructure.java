@@ -43,9 +43,7 @@ public class PyCallerFunctionTreeStructure extends HierarchyTreeStructure {
       return ArrayUtil.EMPTY_OBJECT_ARRAY;
     }
 
-
-
-    return new Object[0];
+    return ArrayUtil.EMPTY_OBJECT_ARRAY;
   }
 
   @Override

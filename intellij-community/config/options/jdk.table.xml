@@ -7,9 +7,6 @@
       <version value="Python 2.7.6" />
       <homePath value="/usr/bin/python2.7" />
       <roots>
-        <annotationsPath>
-          <root type="composite" />
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root type="simple" url="file:///usr/lib/python2.7" />
@@ -26,9 +23,6 @@
             <root type="simple" url="file:///usr/local/lib/python2.7/dist-packages/pip-1.4.1-py2.7.egg" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite" />
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
@@ -41,11 +35,6 @@
       <version value="java version &quot;1.7.0_55&quot;" />
       <homePath value="/usr/lib/jvm/default-java" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root type="simple" url="file://$APPLICATION_HOME_DIR$/java/jdkAnnotations" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root type="simple" url="jar:///usr/lib/jvm/default-java/jre/lib/charsets.jar!/" />
@@ -66,11 +55,6 @@
             <root type="simple" url="jar:///usr/lib/jvm/default-java/jre/lib/ext/dnsns.jar!/" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root type="simple" url="http://docs.oracle.com/javafx/2/api/" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>

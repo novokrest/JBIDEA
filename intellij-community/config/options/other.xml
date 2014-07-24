@@ -86,6 +86,11 @@
         <option value="$USER_HOME$/GitHub/Drunkard" />
       </list>
     </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/GitHub/Drunkard/DrunkardGame" />
+      </list>
+    </option>
     <option name="lastPath" value="$USER_HOME$/GitHub/Drunkard/DrunkardGame" />
   </component>
   <component name="Registry">

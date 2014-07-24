@@ -20,9 +20,14 @@ import com.intellij.ide.hierarchy.HierarchyBrowser;
 import com.intellij.ide.hierarchy.HierarchyNodeDescriptor;
 import com.intellij.ide.hierarchy.HierarchyTreeStructure;
 import com.intellij.ide.util.treeView.NodeDescriptor;
+import com.intellij.openapi.actionSystem.ActionGroup;
+import com.intellij.openapi.actionSystem.ActionManager;
+import com.intellij.openapi.actionSystem.ActionPlaces;
+import com.intellij.openapi.actionSystem.IdeActions;
 import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.PsiElement;
+import com.intellij.ui.PopupHandler;
 import com.intellij.ui.content.Content;
 import com.jetbrains.python.hierarchy.PyHierarchyUtils;
 import com.jetbrains.python.psi.PyFunction;
@@ -58,8 +63,18 @@ public class PyCallHierarchyBrowser extends CallHierarchyBrowserBase {
   }
 
   @Override
-  protected void createTrees(@NotNull Map<String, JTree> trees) {
+  protected void createTrees(@NotNull Map<String, JTree> type2TreeMap) {
+    ActionGroup group = (ActionGroup)ActionManager.getInstance().getAction(IdeActions.GROUP_PY_CALL_HIERARCHY_POPUP);
+    final JTree tree1 = createTree(false);
+    PopupHandler.installPopupHandler(tree1, group, ActionPlaces.CALL_HIERARCHY_VIEW_POPUP, ActionManager.getInstance());
+    final BaseOnThisFunctionAction baseOnThisFunctionAction = new BaseOnThisFunctionAction();
+    baseOnThisFunctionAction.registerCustomShortcutSet(ActionManager.getInstance().getAction(IdeActions.ACTION_CALL_HIERARCHY).getShortcutSet(), tree1);
+    type2TreeMap.put(CALLER_TYPE, tree1);
 
+    final JTree tree2 = createTree(false);
+    PopupHandler.installPopupHandler(tree2, group, ActionPlaces.CALL_HIERARCHY_VIEW_POPUP, ActionManager.getInstance());
+    baseOnThisFunctionAction.registerCustomShortcutSet(ActionManager.getInstance().getAction(IdeActions.ACTION_CALL_HIERARCHY).getShortcutSet(), tree2);
+    type2TreeMap.put(CALLER_TYPE, tree2);
   }
 
   @Override
@@ -69,14 +84,15 @@ public class PyCallHierarchyBrowser extends CallHierarchyBrowserBase {
 
   @Nullable
   @Override
-  protected HierarchyTreeStructure createHierarchyTreeStructure(@NotNull String type, @NotNull PsiElement psiElement) {
-    if (CALLER_TYPE.equals(type)) {
+  protected HierarchyTreeStructure createHierarchyTreeStructure(@NotNull String typeName, @NotNull PsiElement psiElement) {
+    if (CALLER_TYPE.equals(typeName)) {
       return new PyCallerFunctionTreeStructure(myProject, (PyFunction)psiElement, getCurrentScopeType());
     }
-    else if (CALLEE_TYPE.equals(type)) {
+    else if (CALLEE_TYPE.equals(typeName)) {
       return new PyCalleeFunctionTreeStructure(myProject, (PyFunction)psiElement, getCurrentScopeType());
     }
     else {
+      LOG.error("unexpected type: " + typeName);
       return null;
     }
   }
@@ -87,5 +103,5 @@ public class PyCallHierarchyBrowser extends CallHierarchyBrowserBase {
     return PyHierarchyUtils.getComparator(myProject);
   }
 
-  public static final class BaseOnThisMethodAction extends CallHierarchyBrowserBase.BaseOnThisMethodAction {}
+  public static final class BaseOnThisFunctionAction extends CallHierarchyBrowserBase.BaseOnThisMethodAction {}
 }
