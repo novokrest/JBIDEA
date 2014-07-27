@@ -68,6 +68,7 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/PycharmProjects/TraceFuncTest" />
         <option value="$USER_HOME$/PycharmProjects/111" />
         <option value="$USER_HOME$/PycharmProjects/untitled" />
       </list>
@@ -77,7 +78,7 @@
         <option value="$USER_HOME$/PycharmProjects/111" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/PycharmProjects/111" />
+    <option name="lastPath" value="$USER_HOME$/PycharmProjects/TraceFuncTest" />
   </component>
   <component name="RecentProjectsManager">
     <option name="recentPaths">
@@ -138,7 +139,7 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1406129518220" />
+    <option name="LAST_TIME_CHECKED" value="1406447982400" />
     <option name="LAST_BUILD_CHECKED" value="IC-138.SNAPSHOT" />
     <option name="UPDATE_CHANNEL_TYPE" value="eap" />
   </component>

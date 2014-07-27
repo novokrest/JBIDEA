@@ -10,3 +10,5 @@ class A:
 
 a = A()
 y = [i for i in range(10)]
+bar()
+foo()

@@ -4,22 +4,22 @@
     <group name="language-level">
       <project id="DrunkardGame" values="JDK_1_6" />
     </group>
-    <group name="module type">
-      <project id="111" values="PYTHON_MODULE" />
-      <project id="untitled" values="PYTHON_MODULE" />
-      <project id="DrunkardGame" values="JAVA_MODULE" />
-    </group>
     <group name="vcs">
       <project id="DrunkardGame" values="Git" />
     </group>
-    <group name="file-type">
-      <project id="111" values="XML,UNKNOWN,PLAIN_TEXT,Python" />
-      <project id="untitled" values="PLAIN_TEXT,UNKNOWN,XML,Python" />
-      <project id="DrunkardGame" values="PLAIN_TEXT,IDEA_MODULE,JAVA,UNKNOWN,XML" />
+    <group name="module type">
+      <project id="111" values="PYTHON_MODULE" />
+      <project id="DrunkardGame" values="JAVA_MODULE" />
+      <project id="untitled" values="PYTHON_MODULE" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="111" values="PythonConfigurationType" />
       <project id="untitled" values="PythonConfigurationType" />
+    </group>
+    <group name="file-type">
+      <project id="111" values="UNKNOWN,XML,PLAIN_TEXT,Python" />
+      <project id="DrunkardGame" values="JAVA,UNKNOWN,PLAIN_TEXT,IDEA_MODULE,XML" />
+      <project id="untitled" values="UNKNOWN,Python,PLAIN_TEXT,XML" />
     </group>
     <group name="py-interpreter">
       <project id="111" values="Python 2.7.6" />
@@ -29,10 +29,11 @@
   <component name="UsageTrigger">
     <counts>
       <entry feature="NewDirectoryProjectAction.Pure Python" count="1" />
-      <entry feature="execute.PythonConfigurationType.Debug" count="28" />
-      <entry feature="execute.PythonConfigurationType.Run" count="1" />
-      <entry feature="ide.settings.Python_Debugger" count="1" />
-      <entry feature="ideaapp.started" count="37" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="36" />
+      <entry feature="execute.PythonConfigurationType.Run" count="3" />
+      <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.Python_Debugger" count="2" />
+      <entry feature="ideaapp.started" count="54" />
     </counts>
   </component>
 </application>

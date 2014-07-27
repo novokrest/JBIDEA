@@ -4,8 +4,7 @@ import traceback
 from django_debug import DjangoLineBreakpoint
 from pydevd_signature import SignatureFactory
 #!!!!!
-from pydevd_signature_cache_manager import CallSignatureCacheManager
-from pydevd_signature_cache_manager import ReturnSignatureCacheManager
+from pydevd_signature_cache_manager import CallSignatureCacheManager, ReturnSignatureCacheManager, CallHierarchyCacheManager
 #!!!!!
 from pydevd_frame import add_exception_to_frame
 import pydev_imports
@@ -325,6 +324,7 @@ class PyDB:
         #!!!!!
         self.call_signature_cache_manager = None
         self.return_signature_cache_manager = None
+        self.call_hierarchy_cache_manager = None
         #!!!!!
         self.SetTrace = pydevd_tracing.SetTrace
 
@@ -1738,7 +1738,8 @@ if __name__ == '__main__':
             file_calls = open('/home/user/call_size', 'w')
             file_returns = open('/home/user/return_size', 'w')
             debugger.call_signature_cache_manager = CallSignatureCacheManager('/home/user/call_size')
-            debugger.return_signature_cache_manager = ReturnSignatureCacheManager('/home/user/return_size')
+            #debugger.return_signature_cache_manager = ReturnSignatureCacheManager('/home/user/return_size')
+            debugger.call_hierarchy_cache_manager = CallHierarchyCacheManager()
             #!!!!!
 
 

@@ -173,3 +173,8 @@ def sendSignatureReturnTrace(dbg, frame, filename, return_value): #send return_t
         if not dbg.return_signature_cache_manager.is_repetition(signature, return_info):
             dbg.return_signature_cache_manager.add(signature, return_info)
             dbg.writer.addCommand(create_return_signature_message(signature, return_info))
+
+
+def sendHierarchyCallTrace(dbg, frame, filename):
+    if dbg.signature_factory and dbg.signature_factory.is_in_scope(filename) and dbg.call_hierarchy_cache_manager:
+        dbg.call_hierarchy_cache_manager.add(frame)

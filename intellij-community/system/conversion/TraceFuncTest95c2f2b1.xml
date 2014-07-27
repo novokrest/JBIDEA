@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/user/PycharmProjects/TraceFuncTest/.idea/TraceFuncTest.iml" timestamp="1406460562000" />
+    <file path="/home/user/PycharmProjects/TraceFuncTest/.idea/encodings.xml" timestamp="1406460562000" />
+    <file path="/home/user/PycharmProjects/TraceFuncTest/.idea/misc.xml" timestamp="1406471172000" />
+    <file path="/home/user/PycharmProjects/TraceFuncTest/.idea/modules.xml" timestamp="1406460562000" />
+    <file path="/home/user/PycharmProjects/TraceFuncTest/.idea/scopes/scope_settings.xml" timestamp="1406460562000" />
+    <file path="/home/user/PycharmProjects/TraceFuncTest/.idea/vcs.xml" timestamp="1406460562000" />
+    <file path="/home/user/PycharmProjects/TraceFuncTest/.idea/workspace.xml" timestamp="1406471816000" />
+  </project-files>
+</conversion>
+

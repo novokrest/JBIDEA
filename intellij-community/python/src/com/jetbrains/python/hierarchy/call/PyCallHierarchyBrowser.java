@@ -63,6 +63,15 @@ public class PyCallHierarchyBrowser extends CallHierarchyBrowserBase {
   }
 
   @Override
+  protected PsiElement getOpenFileElementFromDescriptor(@NotNull HierarchyNodeDescriptor descriptor) {
+    if (descriptor instanceof PyCallHierarchyNodeDescriptor) {
+      PyCallHierarchyNodeDescriptor nodeDescriptor = (PyCallHierarchyNodeDescriptor)descriptor;
+      return nodeDescriptor.getTargetElement();
+    }
+    return null;
+  }
+
+  @Override
   protected void createTrees(@NotNull Map<String, JTree> type2TreeMap) {
     ActionGroup group = (ActionGroup)ActionManager.getInstance().getAction(IdeActions.GROUP_PY_CALL_HIERARCHY_POPUP);
     final JTree tree1 = createTree(false);

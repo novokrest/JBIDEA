@@ -26,7 +26,7 @@ import org.jetbrains.annotations.NotNull;
  */
 public class PyCalleeFunctionTreeStructure extends HierarchyTreeStructure {
   public PyCalleeFunctionTreeStructure(Project project, PyFunction function, String currentScopeType) {
-    super(project, new PyCallHierarchyNodeDescriptor(project, null, function, true));
+    super(project, new PyCallHierarchyNodeDescriptor(project, null, function, true, false));
   }
 
   @NotNull
