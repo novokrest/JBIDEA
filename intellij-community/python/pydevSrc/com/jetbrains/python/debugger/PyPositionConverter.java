@@ -1,7 +1,6 @@
 package com.jetbrains.python.debugger;
 
 import com.intellij.xdebugger.XSourcePosition;
-import com.jetbrains.python.debugger.pydev.PyReturnSignature;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -20,4 +19,6 @@ public interface PyPositionConverter {
   PySignature convertSignature(PySignature signature);
 
   PyReturnSignature convertReturnSignature(PyReturnSignature returnSignature);
+
+  PyHierarchyCallInfo convertHierarchyCallInfo(PyHierarchyCallInfo callInfo);
 }

@@ -16,31 +16,23 @@
 package com.jetbrains.python.debugger;
 
 import com.intellij.openapi.components.ServiceManager;
-import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.project.Project;
 import com.jetbrains.python.psi.PyFunction;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 /**
- * Created by user on 7/18/14.
+ * Created by user on 7/28/14.
  */
-public abstract class PyReturnSignatureCacheManager {
-  public static final Logger Log = Logger.getInstance(PyReturnSignatureCacheManager.class.getName());
-
-  public static PyReturnSignatureCacheManager getInstance(Project project) {
-    return ServiceManager.getService(project, PyReturnSignatureCacheManager.class);
-    //return new PyReturnSignatureCacheManagerImpl(project);
+public abstract class PyHierarchyCallCacheManager {
+  public static PyHierarchyCallCacheManager getInstance(Project project) {
+    return ServiceManager.getService(project, PyHierarchyCallCacheManager.class);
   }
 
-  @Nullable
-  public abstract void recordReturnSignature(@NotNull PyReturnSignature returnSignature);
+  public abstract void recordHierarchyCallInfo(@NotNull PyHierarchyCallInfo callInfo);
 
-  @Nullable
-  public abstract String findReturnTypes(@NotNull PyFunction function);
+  public abstract Object[] findFunctionCallers(@NotNull PyFunction function);
 
-  @Nullable
-  public abstract PyReturnSignature findReturnSignature(@NotNull PyFunction function);
+  public abstract Object[] findFunctionCallees(@NotNull PyFunction function);
 
   public abstract void clearCache();
 }

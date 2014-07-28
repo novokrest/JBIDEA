@@ -66,6 +66,7 @@ public class PyDebuggerConfigurable implements SearchableConfigurable, Configura
       public void actionPerformed(ActionEvent event) {
         PySignatureCacheManager.getInstance(myProject).clearCache();
         PyReturnSignatureCacheManager.getInstance(myProject).clearCache();
+        PyHierarchyCallCacheManager.getInstance(myProject).clearCache();
       }
     });
     return myMainPanel;

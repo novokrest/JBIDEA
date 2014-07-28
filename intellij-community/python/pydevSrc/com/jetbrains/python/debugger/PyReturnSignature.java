@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jetbrains.python.debugger.pydev;
+package com.jetbrains.python.debugger;
 
 import com.google.common.collect.Lists;
 import com.intellij.openapi.util.text.StringUtil;

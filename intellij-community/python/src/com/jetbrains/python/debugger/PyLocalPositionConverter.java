@@ -24,7 +24,6 @@ import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.openapi.vfs.VirtualFileSystem;
 import com.intellij.xdebugger.XDebuggerUtil;
 import com.intellij.xdebugger.XSourcePosition;
-import com.jetbrains.python.debugger.pydev.PyReturnSignature;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -113,6 +112,11 @@ public class PyLocalPositionConverter implements PyPositionConverter {
   @Override
   public PyReturnSignature convertReturnSignature(PyReturnSignature returnSignature) {
     return returnSignature;
+  }
+
+  @Override
+  public PyHierarchyCallInfo convertHierarchyCallInfo(PyHierarchyCallInfo callInfo) {
+    return callInfo;
   }
 
   public VirtualFile getVirtualFile(String path) {

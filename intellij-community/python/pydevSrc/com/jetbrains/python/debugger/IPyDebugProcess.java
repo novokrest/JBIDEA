@@ -1,7 +1,6 @@
 package com.jetbrains.python.debugger;
 
 import com.intellij.execution.ui.ConsoleViewContentType;
-import com.jetbrains.python.debugger.pydev.PyReturnSignature;
 
 import java.io.IOException;
 
@@ -26,4 +25,6 @@ public interface IPyDebugProcess extends PyFrameAccessor {
   void recordSignature(PySignature signature);
 
   void recordReturnSignature (PyReturnSignature signature);
+
+  void recordHierarchyCallInfo (PyHierarchyCallInfo callInfo);
 }

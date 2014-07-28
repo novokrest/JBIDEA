@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce1e3445-fe84-4d61-8cec-a9282d232ec5" name="Default" comment="" />
+    <list default="true" id="ce1e3445-fe84-4d61-8cec-a9282d232ec5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManager.java" afterPath="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManagerImpl.java" afterPath="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManagerImpl.java" />
+    </list>
     <ignored path="intellij-community.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,111 +26,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchRequestCollector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/indexing-api/src/com/intellij/psi/search/SearchRequestCollector.java">
+      <file leaf-file-name="PySignatureCacheManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PySignatureCacheManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1995">
-              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="735">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestResultProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/indexing-api/src/com/intellij/psi/search/RequestResultProcessor.java">
+      <file leaf-file-name="PySignatureCacheManagerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PySignatureCacheManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="3855">
+              <caret line="197" column="40" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodTextOccurrenceProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/java-indexing-impl/src/com/intellij/psi/impl/search/MethodTextOccurrenceProcessor.java">
+      <file leaf-file-name="PyDebuggerConfigurable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyDebuggerConfigurable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1320">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="1020">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pydevd_frame.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_frame.py">
+      <file leaf-file-name="PyHierarchyCallCacheManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6045">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PyHierarchyCallCacheManagerImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9268293" vertical-offset="1147" max-vertical-offset="4245">
+              <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
               <folding>
-                <element signature="e#0#178#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd.py">
+      <file leaf-file-name="String.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/default-java/jre/lib/rt.jar!/java/lang/String.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="25681" max-vertical-offset="26295">
-              <caret line="1741" column="79" selection-start-line="1741" selection-start-column="79" selection-end-line="1741" selection-end-column="79" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="3330">
+              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pydevd_signature_cache_manager.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_signature_cache_manager.py">
+      <file leaf-file-name="PyHierarchyCallInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCallInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4164265" vertical-offset="86" max-vertical-offset="1635">
-              <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
-              <folding>
-                <element signature="e#21#39#0" expanded="true" />
-                <element signature="e#383#772#0" expanded="false" />
-                <element signature="e#826#2030#0" expanded="false" />
-                <element signature="e#2086#3082#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydevd_callhierarchy_cm.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_callhierarchy_cm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#90#193#0" expanded="false" />
-                <element signature="e#292#2580#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydevd_signature.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_signature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1686" max-vertical-offset="2745">
-              <caret line="179" column="51" selection-start-line="179" selection-start-column="51" selection-end-line="179" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1200">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PsiReferenceService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/psi/PsiReferenceService.java">
+      <file leaf-file-name="PyHierarchyDataBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1125">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PsiReferenceServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/core-impl/src/com/intellij/psi/PsiReferenceServiceImpl.java">
+      <file leaf-file-name="PyHierarchyCallerData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCallerData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="735">
+              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PyHierarchyCalleeData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCalleeData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="675">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -151,12 +146,9 @@
       <list>
         <option value="$PROJECT_DIR$/python/testSrc/com/jetbrains/python/PyTypeTest.java" />
         <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyCallSignatureTypeProvider.java" />
-        <option value="$PROJECT_DIR$/python/helpers/pydev/pydevd_comm.py" />
         <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyReturnSignatureTypeProvider.java" />
-        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyDebuggerConfigurable.java" />
         <option value="$PROJECT_DIR$/python/psi-api/src/com/jetbrains/python/psi/PyElementVisitor.java" />
         <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManagerImpl.java" />
-        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManager.java" />
         <option value="$PROJECT_DIR$/java/java-impl/src/com/intellij/ide/hierarchy/call/CallHierarchyBrowser.java" />
         <option value="$PROJECT_DIR$/java/java-impl/src/com/intellij/ide/hierarchy/type/JavaTypeHierarchyProvider.java" />
         <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/hierarchy/PyCallHierarchyBrowser.java" />
@@ -166,7 +158,6 @@
         <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/hierarchy/PyCallHierarchyNodeDescriptor.java" />
         <option value="$PROJECT_DIR$/platform/lang-impl/src/com/intellij/ide/hierarchy/HierarchyTreeStructure.java" />
         <option value="$PROJECT_DIR$/java/java-impl/src/com/intellij/ide/hierarchy/type/SubtypesHierarchyTreeStructure.java" />
-        <option value="$PROJECT_DIR$/python/src/META-INF/python-core.xml" />
         <option value="$PROJECT_DIR$/platform/platform-api/src/com/intellij/openapi/actionSystem/IdeActions.java" />
         <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/hierarchy/call/PyCallHierarchyBrowser.java" />
         <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/hierarchy/call/PyCalleeFunctionTreeStructure.java" />
@@ -177,8 +168,28 @@
         <option value="$PROJECT_DIR$/python/helpers/pydev/pydevd_callhierarchy_cm.py" />
         <option value="$PROJECT_DIR$/python/helpers/pydev/pydevd.py" />
         <option value="$PROJECT_DIR$/python/helpers/pydev/pydevd_frame.py" />
-        <option value="$PROJECT_DIR$/python/helpers/pydev/pydevd_signature.py" />
         <option value="$PROJECT_DIR$/python/helpers/pydev/pydevd_signature_cache_manager.py" />
+        <option value="$PROJECT_DIR$/python/helpers/pydev/pydevd_comm.py" />
+        <option value="$PROJECT_DIR$/python/helpers/pydev/pydevd_signature.py" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/pydev/AbstractCommand.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/pydev/RemoteDebugger.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/IPyDebugProcess.java" />
+        <option value="$PROJECT_DIR$/python/src/META-INF/python-core.xml" />
+        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManager.java" />
+        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyDebugProcess.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyPositionConverter.java" />
+        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyLocalPositionConverter.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/pydev/ProtocolParser.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/pydev/PyHierarchyCallInfo.java" />
+        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PySignatureCacheManagerImpl.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyDataBase.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCallersData.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCalleeData.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCallInfo.java" />
+        <option value="$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCallerData.java" />
+        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyDebuggerConfigurable.java" />
+        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManager.java" />
+        <option value="$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManagerImpl.java" />
       </list>
     </option>
   </component>
@@ -190,10 +201,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="x" value="1985" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1176" />
+    <option name="height" value="1204" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -223,7 +234,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,6 +260,168 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debugger" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydevSrc" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydevSrc" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debugger" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-community" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydevSrc" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -480,7 +653,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,7 +665,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="pydevd_fra&#9;null&#9;null&#10;requestres&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/RequestResultProcessor.java&#10;searchrequestc&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/SearchRequestCollector.java&#10;querys&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/QuerySearchRequest.java&#10;abstra&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/util/AbstractQuery.java&#10;query&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/util/Query.java&#10;processor&#9;PSI&#9;JAVA://com.intellij.util.Processor&#10;Processor&#9;null&#9;null&#10;sea&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/SearchRequestQuery.java&#10;queryrequ&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/QuerySearchRequest.java&#10;methodrefe&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-indexing-api/src/com/intellij/psi/search/searches/MethodReferencesSearch.java&#10;QueryExecutor&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/util/QueryExecutor.java&#10;psielem&#9;PSI&#9;JAVA://com.intellij.psi.PsiElement&#10;test.py&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/JBInternship/test.py&#10;py*find&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/findUsages/PythonFindUsagesProvider.java&#10;callhierar&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallHierarchyNodeDescriptor.java&#10;caller&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallerMethodsTreeStructure.java&#10;typetree&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/type/TypeHierarchyTreeStructure.java&#10;typehier&#9;PSI&#9;JAVA://com.intellij.ide.hierarchy.type.TypeHierarchyBrowser&#10;Caller&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallerMethodsTreeStructure.java&#10;call&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallHierarchyBrowser.java&#10;pymethod&#9;PSI&#9;JAVA://com.jetbrains.python.codeInsight.override.PyMethodMember&#10;methodde&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-indexing-impl/src/com/intellij/psi/impl/search/MethodDeepestSuperSearcher.java&#10;pyclasstyp&#9;PSI&#9;JAVA://com.jetbrains.python.psi.types.PyClassType&#10;typehiera&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/type/SubtypesHierarchyTreeStructure.java&#10;ca&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/lang-impl/src/com/intellij/ide/hierarchy/CallHierarchyBrowserBase.java&#10;psirefere&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/psi/PsiReference.java&#10;javacall&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/JavaCallHierarchyProvider.java&#10;type&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/type/JavaTypeHierarchyProvider.java&#10;javaca&#9;PSI&#9;JAVA://com.intellij.ide.hierarchy.JavaCallHierarchyTest&#10;messa&#9;ACTION&#9;ActivateMessagesToolWindow&#10;hierarchy provider&#9;PSI&#9;JAVA://com.intellij.ide.hierarchy.HierarchyProvider&#10;callhie&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallHierarchyBrowser.java&#10;pyrefer&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/psi/impl/PyReferenceExpressionImpl.java&#10;pyreturn&#9;PSI&#9;JAVA://com.jetbrains.python.debugger.PyReturnSignatureCacheManager&#10;pysignatureca&#9;PSI&#9;JAVA://com.jetbrains.python.debugger.PySignatureCacheManager&#10;pydevd_s&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/helpers/pydev/pydevd_signature.py&#10;pydevd&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/helpers/pydev/pydevd_frame.py&#10;pyty&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/testSrc/com/jetbrains/python/PyTypeTest.java&#10;&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManagerImpl.java&#10;pysig&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyCallSignatureTypeProvider.java&#10;pyelement&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/psi-api/src/com/jetbrains/python/psi/PyElementType.java&#10;pyreturnsigna&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManagerImpl.java&#10;pycac&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PySignatureCacheManager.java&#10;py&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyReturnSignatureTypeProvider.java&#10;pycall&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyCallSignatureTypeProvider.java&#10;service&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/openapi/components/ServiceManager.java&#10;pycalls&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyCallSignatureTypeProvider.java&#10;pyreturns&#9;PSI&#9;JAVA://com.jetbrains.python.debugger.PyReturnSignatureTypeProvider&#10;callable&#9;PSI&#9;JAVA://com.jetbrains.python.psi.Callable" />
+    <property name="SearchEverywhereHistoryKey" value="ysigna&#9;PSI&#9;JAVA://com.jetbrains.python.debugger.PySignature&#10;signaturetypepr&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyCallSignatureTypeProvider.java&#10;pyreturns&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManager.java&#10;signaturecach&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PySignatureCacheManager.java&#10;cachemana&#9;null&#9;null&#10;pyreturnc&#9;PSI&#9;JAVA://com.jetbrains.python.debugger.PyReturnSignatureCacheManager&#10;remotede&#9;PSI&#9;JAVA://com.jetbrains.python.debugger.pydev.RemoteDebugger&#10;pydevd_fra&#9;null&#9;null&#10;requestres&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/RequestResultProcessor.java&#10;searchrequestc&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/SearchRequestCollector.java&#10;querys&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/QuerySearchRequest.java&#10;abstra&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/util/AbstractQuery.java&#10;query&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/util/Query.java&#10;processor&#9;PSI&#9;JAVA://com.intellij.util.Processor&#10;Processor&#9;null&#9;null&#10;sea&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/SearchRequestQuery.java&#10;queryrequ&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/indexing-api/src/com/intellij/psi/search/QuerySearchRequest.java&#10;methodrefe&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-indexing-api/src/com/intellij/psi/search/searches/MethodReferencesSearch.java&#10;QueryExecutor&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/util/QueryExecutor.java&#10;psielem&#9;PSI&#9;JAVA://com.intellij.psi.PsiElement&#10;test.py&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/JBInternship/test.py&#10;py*find&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/findUsages/PythonFindUsagesProvider.java&#10;callhierar&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallHierarchyNodeDescriptor.java&#10;caller&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallerMethodsTreeStructure.java&#10;typetree&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/type/TypeHierarchyTreeStructure.java&#10;typehier&#9;PSI&#9;JAVA://com.intellij.ide.hierarchy.type.TypeHierarchyBrowser&#10;Caller&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallerMethodsTreeStructure.java&#10;call&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallHierarchyBrowser.java&#10;pymethod&#9;PSI&#9;JAVA://com.jetbrains.python.codeInsight.override.PyMethodMember&#10;methodde&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-indexing-impl/src/com/intellij/psi/impl/search/MethodDeepestSuperSearcher.java&#10;pyclasstyp&#9;PSI&#9;JAVA://com.jetbrains.python.psi.types.PyClassType&#10;typehiera&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/type/SubtypesHierarchyTreeStructure.java&#10;ca&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/lang-impl/src/com/intellij/ide/hierarchy/CallHierarchyBrowserBase.java&#10;psirefere&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/platform/core-api/src/com/intellij/psi/PsiReference.java&#10;javacall&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/JavaCallHierarchyProvider.java&#10;type&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/type/JavaTypeHierarchyProvider.java&#10;javaca&#9;PSI&#9;JAVA://com.intellij.ide.hierarchy.JavaCallHierarchyTest&#10;messa&#9;ACTION&#9;ActivateMessagesToolWindow&#10;hierarchy provider&#9;PSI&#9;JAVA://com.intellij.ide.hierarchy.HierarchyProvider&#10;callhie&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/java/java-impl/src/com/intellij/ide/hierarchy/call/CallHierarchyBrowser.java&#10;pyrefer&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/psi/impl/PyReferenceExpressionImpl.java&#10;pyreturn&#9;PSI&#9;JAVA://com.jetbrains.python.debugger.PyReturnSignatureCacheManager&#10;pysignatureca&#9;PSI&#9;JAVA://com.jetbrains.python.debugger.PySignatureCacheManager&#10;pydevd_s&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/helpers/pydev/pydevd_signature.py&#10;pydevd&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/helpers/pydev/pydevd_frame.py&#10;pyty&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/testSrc/com/jetbrains/python/PyTypeTest.java&#10;&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManagerImpl.java&#10;pysig&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyCallSignatureTypeProvider.java&#10;pyelement&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/psi-api/src/com/jetbrains/python/psi/PyElementType.java&#10;pyreturnsigna&#9;FILE&#9;file:///home/user/GitHub/intellij-community/intellij-community/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManagerImpl.java" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="/usr/lib/jvm/default-java/lib/tools.jar!/" />
@@ -1024,45 +1197,46 @@
       <workItem from="1406278111701" duration="3693000" />
       <workItem from="1406285468840" duration="1799000" />
       <workItem from="1406287287143" duration="2581000" />
-      <workItem from="1406289888341" duration="30734000" />
+      <workItem from="1406289888341" duration="57337000" />
+      <workItem from="1406561026150" duration="1196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151802000" />
+    <option name="totallyTimeSpent" value="179601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
+    <frame x="1985" y="-4" width="1855" height="1204" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36371842" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27707583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959569" sideWeight="0.50075185" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959569" sideWeight="0.49924812" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19083558" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2393531" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40162456" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27707583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959569" sideWeight="0.50075185" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19083558" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1087,7 +1261,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManagerImpl.java</url>
-          <line>97</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -1125,262 +1299,10 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platform/lang-impl/src/com/intellij/ide/util/treeView/SmartElementDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/lang-impl/src/com/intellij/ide/hierarchy/HierarchyNodeDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-impl/src/com/intellij/ide/hierarchy/call/CallHierarchyNodeDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2940">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/util/src/com/intellij/openapi/util/UserDataHolderBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/indexing-api/src/com/intellij/psi/search/SearchSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/psi/PsiReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="1740">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/indexing-api/src/com/intellij/psi/search/UsageSearchContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/psi/PsiFileSystemItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/codeInsight/PyContainerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-psi-impl/src/com/intellij/codeInsight/JavaContainerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/codeInsight/ContainerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/util/UniqueResultsQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="1455">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/lang-impl/src/com/intellij/ide/hierarchy/HierarchyTreeStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="635" max-vertical-offset="2550">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/platform-api/src/com/intellij/ide/util/treeView/AbstractTreeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5450" max-vertical-offset="9300">
-          <caret line="469" column="0" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
-          <folding>
-            <element signature="e#12865#12971#0" expanded="false" />
-            <element signature="e#12962#12963#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/openapi/progress/ProgressManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="3075">
-          <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/platform-impl/src/com/intellij/openapi/progress/impl/ProgressManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1820" max-vertical-offset="6465">
-          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/platform-api/src/com/intellij/ide/util/treeView/AbstractTreeUi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="44709" max-vertical-offset="67365">
-          <caret line="3434" column="0" selection-start-line="3434" selection-start-column="0" selection-end-line="3434" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/platform-api/src/com/intellij/util/concurrency/WorkerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1740">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/platform-impl/src/com/intellij/openapi/application/impl/ApplicationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="890" max-vertical-offset="19680">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-impl/src/com/intellij/ide/hierarchy/call/CallerMethodsTreeStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="930">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#2618#2629#0" expanded="true" />
-            <element signature="e#2816#2843#0" expanded="true" />
-            <element signature="e#3162#3487#0" expanded="true" />
-            <element signature="e#3478#3479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-impl/src/com/intellij/extapi/psi/StubBasedPsiElementBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2313" max-vertical-offset="5145">
-          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding>
-            <element signature="e#7952#7953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/lang-impl/src/com/intellij/psi/impl/search/NonPhysicalReferenceSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/groovy/groovy-psi/src/org/jetbrains/plugins/groovy/findUsages/GrLiteralMethodSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-indexing-api/src/com/intellij/psi/search/searches/MethodReferencesSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="e#2221#2222#0" expanded="false" />
-            <element signature="e#2250#2251#0" expanded="false" />
-            <element signature="e#4876#4897#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/util/QueryExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/openapi/application/QueryExecutorBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding>
-            <element signature="e#775#1073#0" expanded="false" />
-            <element signature="e#1066#1067#0" expanded="false" />
-            <element signature="e#1163#1275#0" expanded="false" />
-            <element signature="e#1266#1267#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-indexing-impl/src/com/intellij/psi/impl/search/MethodUsagesSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="e#2020#3147#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#4051#4997#0" expanded="true" />
-            <element signature="e#4990#4991#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/core-api/src/com/intellij/util/QueryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#1561#1562#0" expanded="false" />
-            <element signature="e#1589#1590#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform/util/src/com/intellij/openapi/util/NotNullLazyValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,7 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="1125">
           <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,13 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1005">
           <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
-          <folding>
-            <element signature="e#2474#2475#0" expanded="false" />
-            <element signature="e#2682#2803#0" expanded="false" />
-            <element signature="e#2796#2797#0" expanded="false" />
-            <element signature="e#3254#3255#0" expanded="false" />
-            <element signature="e#3305#3306#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1418,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33224756" vertical-offset="1986" max-vertical-offset="6270">
           <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,15 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/indexing-api/src/com/intellij/psi/search/SearchRequestQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,7 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,9 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1825#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1468,7 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="720">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,12 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
           <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="e#1488#1698#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-            <element signature="e#1740#1928#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,7 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1140">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1497,7 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1995">
           <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1505,7 +1394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1513,7 +1401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1521,7 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,33 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1320">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="25681" max-vertical-offset="26295">
-          <caret line="1741" column="79" selection-start-line="1741" selection-start-column="79" selection-end-line="1741" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6045">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_signature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1686" max-vertical-offset="2745">
-          <caret line="179" column="51" selection-start-line="179" selection-start-column="51" selection-end-line="179" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1563,22 +1422,252 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#90#193#0" expanded="false" />
-            <element signature="e#292#2580#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26295">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_comm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1363" max-vertical-offset="15780">
+          <caret line="176" column="38" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/indexing-api/src/com/intellij/psi/search/SearchRequestQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="6045">
+          <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_signature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1873" max-vertical-offset="2985">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/pydev/AbstractCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2256" max-vertical-offset="3210">
+          <caret line="181" column="43" selection-start-line="181" selection-start-column="43" selection-end-line="181" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyReturnSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/pydev/RemoteDebugger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9000">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/analysis-api/src/com/intellij/codeInspection/ex/EntryPointsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/helpers/pydev/pydevd_signature_cache_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4164265" vertical-offset="86" max-vertical-offset="1635">
-          <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="1215">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/src/META-INF/IdeaPlugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.25926" vertical-offset="6170" max-vertical-offset="23160">
+          <caret line="464" column="80" selection-start-line="464" selection-start-column="75" selection-end-line="464" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/META-INF/python-core.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6956" max-vertical-offset="10950">
+          <caret line="482" column="109" selection-start-line="482" selection-start-column="109" selection-end-line="482" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyReturnSignatureTypeProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyReturnSignatureCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/IPyDebugProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyLocalPositionConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2355">
+          <caret line="119" column="36" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyPositionConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyDebugProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2872" max-vertical-offset="9105">
+          <caret line="294" column="78" selection-start-line="294" selection-start-column="78" selection-end-line="294" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyCallSignatureTypeProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/platform-api/src/com/intellij/openapi/vfs/newvfs/FileAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="1515">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/src/guava-17.0-sources.jar!/com/google/common/cache/CacheBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2677" max-vertical-offset="11820">
+          <caret line="247" column="45" selection-start-line="247" selection-start-column="45" selection-end-line="247" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/pydev/ProtocolParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="3585">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PySignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="1785">
+          <caret line="121" column="28" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCalleeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="915">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCallInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="990">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pydevSrc/com/jetbrains/python/debugger/PyHierarchyCallerData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PySignatureCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="675">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-java/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1162" max-vertical-offset="3315">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyDebuggerConfigurable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="1020">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PySignatureCacheManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="3855">
+          <caret line="197" column="40" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/src/com/jetbrains/python/debugger/PyHierarchyCallCacheManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9268293" vertical-offset="1147" max-vertical-offset="4245">
+          <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
           <folding>
-            <element signature="e#21#39#0" expanded="true" />
-            <element signature="e#383#772#0" expanded="false" />
-            <element signature="e#826#2030#0" expanded="false" />
-            <element signature="e#2086#3082#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

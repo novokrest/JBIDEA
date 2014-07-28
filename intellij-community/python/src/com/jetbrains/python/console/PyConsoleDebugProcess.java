@@ -21,7 +21,6 @@ import com.intellij.remote.RemoteProcessHandlerBase;
 import com.intellij.util.ui.UIUtil;
 import com.intellij.xdebugger.XDebugSession;
 import com.jetbrains.python.debugger.PyDebugProcess;
-import com.jetbrains.python.debugger.pydev.PyReturnSignature;
 import org.jetbrains.annotations.NotNull;
 
 import java.net.ServerSocket;
