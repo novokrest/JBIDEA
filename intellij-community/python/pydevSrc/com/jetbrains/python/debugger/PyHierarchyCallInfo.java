@@ -71,4 +71,13 @@ public class PyHierarchyCallInfo {
 
     return data;
   }
+
+  public String toString() {
+    return "Call info: \n"
+           + "caller file: " + getCallerFile() + "\n"
+           + "callee file: " + getCalleeFile() + "\n"
+           + "caller name: " + getCallerName() + "\n"
+           + "callee name: " + getCalleeName() + "\n"
+           + "caller line: " + getCallerLine();
+  }
 }

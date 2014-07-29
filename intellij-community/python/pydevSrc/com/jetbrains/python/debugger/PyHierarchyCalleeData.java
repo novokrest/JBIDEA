@@ -29,11 +29,15 @@ public class PyHierarchyCalleeData extends PyHierarchyDataBase {
     return getLines();
   }
 
-  public void addCalleeLine(int line) {
+  public PyHierarchyCalleeData addCalleeLine(int line) {
     addLine(line);
+
+    return this;
   }
 
-  public void addAllCalleeLines(PyHierarchyCalleeData data) {
+  public PyHierarchyCalleeData addAllCalleeLines(PyHierarchyCalleeData data) {
     addAllLines(data);
+
+    return this;
   }
 }

@@ -83,7 +83,7 @@ public class PyCallHierarchyBrowser extends CallHierarchyBrowserBase {
     final JTree tree2 = createTree(false);
     PopupHandler.installPopupHandler(tree2, group, ActionPlaces.CALL_HIERARCHY_VIEW_POPUP, ActionManager.getInstance());
     baseOnThisFunctionAction.registerCustomShortcutSet(ActionManager.getInstance().getAction(IdeActions.ACTION_CALL_HIERARCHY).getShortcutSet(), tree2);
-    type2TreeMap.put(CALLER_TYPE, tree2);
+    type2TreeMap.put(CALLEE_TYPE, tree2);
   }
 
   @Override

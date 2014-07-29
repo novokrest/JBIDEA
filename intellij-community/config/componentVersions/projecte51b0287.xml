@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <versions>
-  <component name="ChangeListManager" version="1406471889515" />
-  <component name="ChangesViewManager" version="1406471889516" />
-  <component name="CreatePatchCommitExecutor" version="1406471889517" />
-  <component name="DaemonCodeAnalyzer" version="1406471889517" />
-  <component name="Encoding" version="1406471889518" />
-  <component name="ExecutionTargetManager" version="1406471889518" />
-  <component name="FavoritesManager" version="1406471889518" />
-  <component name="FileEditorManager" version="1406471889520" />
+  <component name="ChangeListManager" version="1406638092470" />
+  <component name="ChangesViewManager" version="1406638092481" />
+  <component name="CreatePatchCommitExecutor" version="1406638092481" />
+  <component name="DaemonCodeAnalyzer" version="1406638092481" />
+  <component name="Encoding" version="1406638092481" />
+  <component name="ExecutionTargetManager" version="1406638092481" />
+  <component name="FavoritesManager" version="1406638092481" />
+  <component name="FileEditorManager" version="1406638092482" />
   <component name="FindManager" version="1406471617431" />
   <component name="HierarchyBrowserManager" version="1406290082478" />
-  <component name="IdeDocumentHistory" version="1406471889521" />
-  <component name="ProjectFrameBounds" version="1406471889554" />
-  <component name="ProjectLevelVcsManager" version="1406471889554" />
-  <component name="ProjectModuleManager" version="1406471889555" />
-  <component name="ProjectReloadState" version="1406471889555" />
-  <component name="ProjectRootManager" version="1406471889555" />
-  <component name="ProjectView" version="1406471889556" />
-  <component name="PropertiesComponent" version="1406471889556" />
+  <component name="IdeDocumentHistory" version="1406638092482" />
+  <component name="ProjectFrameBounds" version="1406638092486" />
+  <component name="ProjectLevelVcsManager" version="1406638092487" />
+  <component name="ProjectModuleManager" version="1406638092487" />
+  <component name="ProjectReloadState" version="1406638092487" />
+  <component name="ProjectRootManager" version="1406638092487" />
+  <component name="ProjectView" version="1406638092487" />
+  <component name="PropertiesComponent" version="1406638092487" />
   <component name="PyConsoleOptionsProvider" version="1405931868740" />
   <component name="PyDebuggerOptionsProvider" version="1405931868740" />
-  <component name="RunManager" version="1406471889568" />
-  <component name="ShelveChangesManager" version="1406471889568" />
+  <component name="RunManager" version="1406638092491" />
+  <component name="ShelveChangesManager" version="1406638092491" />
   <component name="SvnConfiguration" version="1406274778008" />
-  <component name="TaskManager" version="1406471889570" />
-  <component name="ToolWindowManager" version="1406471889571" />
-  <component name="Vcs.Log.UiProperties" version="1406471889571" />
-  <component name="VcsContentAnnotationSettings" version="1406471889572" />
-  <component name="VcsDirectoryMappings" version="1406471889572" />
-  <component name="VcsManagerConfiguration" version="1406471889572" />
-  <component name="XDebuggerManager" version="1406471889576" />
-  <component name="editorHistoryManager" version="1406471889581" />
+  <component name="TaskManager" version="1406638092492" />
+  <component name="ToolWindowManager" version="1406638092492" />
+  <component name="Vcs.Log.UiProperties" version="1406638092492" />
+  <component name="VcsContentAnnotationSettings" version="1406638092492" />
+  <component name="VcsDirectoryMappings" version="1406638092493" />
+  <component name="VcsManagerConfiguration" version="1406638092493" />
+  <component name="XDebuggerManager" version="1406638092495" />
+  <component name="editorHistoryManager" version="1406638092498" />
 </versions>
 

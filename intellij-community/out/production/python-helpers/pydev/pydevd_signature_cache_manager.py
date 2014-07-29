@@ -98,6 +98,15 @@ class ReturnSignatureCacheManager(CacheManager):
                 print 'filename=%s, name=%s, returns=%s' % (filename, name, returns)
 
 
+class CallInfo(object):
+    def __init__(self, caller_file, callee_file, caller_name, callee_name, caller_line):
+        self.caller_file = caller_file
+        self.callee_file = callee_file
+        self.caller_name = caller_name
+        self.callee_name = callee_name
+        self.caller_line = caller_line
+
+
 class CallHierarchyCacheManager(CacheManager): #stores for every function in file its own callers
     def __init__(self, log=None):
         CacheManager.__init__(self, log)
@@ -156,7 +165,10 @@ class CallHierarchyCacheManager(CacheManager): #stores for every function in fil
 
         self.write_cache()
 
-        return result
+        if result:
+            return CallInfo(caller_filename, func_filename, caller_func_name, func_name, str(func_call_line_no))
+        else:
+            return None
 
     def is_repetition(self, frame):
         caller_frame = frame.f_back

@@ -11,29 +11,33 @@
       <project id="111" values="PYTHON_MODULE" />
       <project id="DrunkardGame" values="JAVA_MODULE" />
       <project id="untitled" values="PYTHON_MODULE" />
+      <project id="TraceFuncTest" values="PYTHON_MODULE" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="111" values="PythonConfigurationType" />
       <project id="untitled" values="PythonConfigurationType" />
+      <project id="TraceFuncTest" values="PythonConfigurationType" />
     </group>
     <group name="file-type">
-      <project id="111" values="UNKNOWN,XML,PLAIN_TEXT,Python" />
-      <project id="DrunkardGame" values="JAVA,UNKNOWN,PLAIN_TEXT,IDEA_MODULE,XML" />
-      <project id="untitled" values="UNKNOWN,Python,PLAIN_TEXT,XML" />
+      <project id="111" values="XML,PLAIN_TEXT,Python,UNKNOWN" />
+      <project id="DrunkardGame" values="UNKNOWN,IDEA_MODULE,XML,JAVA,PLAIN_TEXT" />
+      <project id="untitled" values="Python,XML,PLAIN_TEXT,UNKNOWN" />
+      <project id="TraceFuncTest" values="PLAIN_TEXT,UNKNOWN,Python,XML" />
     </group>
     <group name="py-interpreter">
       <project id="111" values="Python 2.7.6" />
       <project id="untitled" values="Python 2.7.6" />
+      <project id="TraceFuncTest" values="Python 2.7.6" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="NewDirectoryProjectAction.Pure Python" count="1" />
-      <entry feature="execute.PythonConfigurationType.Debug" count="36" />
-      <entry feature="execute.PythonConfigurationType.Run" count="3" />
+      <entry feature="NewDirectoryProjectAction.Pure Python" count="2" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="86" />
+      <entry feature="execute.PythonConfigurationType.Run" count="6" />
       <entry feature="ide.settings.Appearance" count="1" />
-      <entry feature="ide.settings.Python_Debugger" count="2" />
-      <entry feature="ideaapp.started" count="54" />
+      <entry feature="ide.settings.Python_Debugger" count="4" />
+      <entry feature="ideaapp.started" count="122" />
     </counts>
   </component>
 </application>

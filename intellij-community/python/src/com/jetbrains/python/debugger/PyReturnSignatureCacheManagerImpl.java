@@ -266,7 +266,7 @@ public class PyReturnSignatureCacheManagerImpl extends PyReturnSignatureCacheMan
     else {
       message = "Nothing to delete";
     }
-    Messages.showInfoMessage(myProject, message, "Delete Cache");
+    Messages.showInfoMessage(myProject, message, "Delete return signature cache");
   }
 
   @Nullable

@@ -16,15 +16,15 @@ FUNCFLAG_USE_LASTERROR = 16
 RTLD_GLOBAL = 256
 RTLD_LOCAL = 0
 
-_cast_addr = 140078279101664
+_cast_addr = 139978710256864
 
-_memmove_addr = 140078299725312
+_memmove_addr = 139978730880512
 
-_memset_addr = 140078298956800
+_memset_addr = 139978730112000
 
-_string_at_addr = 140078279070064
+_string_at_addr = 139978710225264
 
-_wstring_at_addr = 140078279069792
+_wstring_at_addr = 139978710224992
 
 __version__ = '1.1.0'
 

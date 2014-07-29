@@ -18,20 +18,73 @@ package com.jetbrains.python.hierarchy.call;
 import com.intellij.ide.hierarchy.HierarchyNodeDescriptor;
 import com.intellij.ide.hierarchy.HierarchyTreeStructure;
 import com.intellij.openapi.project.Project;
+import com.intellij.openapi.vfs.LocalFileSystem;
+import com.intellij.openapi.vfs.VirtualFile;
+import com.intellij.psi.PsiElement;
+import com.intellij.psi.PsiFile;
+import com.intellij.psi.PsiManager;
+import com.intellij.psi.search.SearchScope;
+import com.intellij.util.ArrayUtil;
+import com.intellij.util.containers.HashSet;
+import com.jetbrains.python.debugger.PyHierarchyCallCacheManager;
+import com.jetbrains.python.debugger.PyHierarchyCalleeData;
+import com.jetbrains.python.debugger.PyHierarchyCallerData;
+import com.jetbrains.python.psi.PyFile;
 import com.jetbrains.python.psi.PyFunction;
+import com.jetbrains.python.psi.search.PySuperMethodsSearch;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Created by user on 7/23/14.
  */
 public class PyCalleeFunctionTreeStructure extends HierarchyTreeStructure {
+  private final String myScopeType;
+
   public PyCalleeFunctionTreeStructure(Project project, PyFunction function, String currentScopeType) {
     super(project, new PyCallHierarchyNodeDescriptor(project, null, function, true, false));
+    myScopeType = currentScopeType;
   }
 
   @NotNull
   @Override
   protected Object[] buildChildren(@NotNull HierarchyNodeDescriptor descriptor) {
-    return new Object[0];
+    final PyFunction function = ((PyCallHierarchyNodeDescriptor)descriptor).getEnclosingElement();
+    HierarchyNodeDescriptor nodeDescriptor = getBaseDescriptor();
+    if (function == null || nodeDescriptor == null) {
+      return ArrayUtil.EMPTY_OBJECT_ARRAY;
+    }
+
+    List<PyCallHierarchyNodeDescriptor> descriptors = new ArrayList<PyCallHierarchyNodeDescriptor>();
+    //for (PyFunction pyFunction: functionsToFind) {
+    //  descriptors.add(new PyCallHierarchyNodeDescriptor(myProject, null, pyFunction, false, false));
+    //}
+
+    PyHierarchyCallCacheManager callCacheManager = PyHierarchyCallCacheManager.getInstance(myProject);
+    Object[] callees = callCacheManager.findFunctionCallees(function);
+    if (callees.length > 0) {
+      for (Object calleeData: callees) {
+        PyHierarchyCalleeData data = (PyHierarchyCalleeData)calleeData;
+        VirtualFile calleeFile = LocalFileSystem.getInstance().findFileByPath(data.getCalleeFile());
+        if (calleeFile == null) {
+          continue;
+        }
+        PsiFile file = PsiManager.getInstance(myProject).findFile(calleeFile);
+        if (!(file instanceof PyFile)) {
+          continue;
+        }
+        PyFile pyCalleeFile = (PyFile)file;
+        PsiElement callee = pyCalleeFile.getElementNamed(data.getCalleeName());
+        if (callee instanceof PyFunction) {
+          descriptors.add(new PyCallHierarchyNodeDescriptor(myProject, null, callee, false, false));
+        }
+      }
+    }
+
+    return ArrayUtil.toObjectArray(descriptors);
   }
 }

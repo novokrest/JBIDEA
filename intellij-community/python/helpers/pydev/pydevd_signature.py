@@ -139,7 +139,7 @@ def create_return_signature_message(signature, return_info):
     cmdTextList.append("</return_signature></xml>")
     cmdText = ''.join(cmdTextList)
 
-    print "return command = %s" % cmdText
+    #print "return command = %s" % cmdText
 
     return NetCommand(CMD_SIGNATURE_RETURN_TRACE, 0, cmdText)
 
@@ -156,6 +156,7 @@ def create_hierarchy_call_message(call_info):
     cmdTextList.append("</hierarchy_call></xml>")
     cmdText = ''.join(cmdTextList)
 
+    print 'qwerty'
     return NetCommand(CMD_HIERARCHY_CALL_TRACE, 0, cmdText)
 
 
@@ -193,4 +194,4 @@ def sendHierarchyCallTrace(dbg, frame, filename):
     if dbg.signature_factory and dbg.signature_factory.is_in_scope(filename) and dbg.call_hierarchy_cache_manager:
         call_info = dbg.call_hierarchy_cache_manager.add(frame)
         if (call_info):
-            create_hierarchy_call_message(call_info)
+            dbg.writer.addCommand(create_hierarchy_call_message(call_info))

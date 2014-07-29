@@ -18,6 +18,7 @@ package com.jetbrains.python.debugger;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
+import com.google.common.collect.Lists;
 import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.progress.ProgressManager;
 import com.intellij.openapi.project.Project;
@@ -33,11 +34,11 @@ import com.intellij.psi.PsiFile;
 import com.intellij.psi.search.GlobalSearchScope;
 import com.intellij.psi.search.ProjectScope;
 import com.intellij.util.ArrayUtil;
-import com.intellij.util.messages.impl.Message;
 import com.jetbrains.python.psi.PyFunction;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
@@ -68,7 +69,7 @@ public class PyHierarchyCallCacheManagerImpl extends PyHierarchyCallCacheManager
       new CacheLoader<VirtualFile, String>() {
         @Override
         public String load(VirtualFile key) throws Exception {
-          return readCallerAttributeFromFile(key);
+          return readAttributeFromFile(key, HIERARCHY_CALLERS_DATA);
         }
       }
     );
@@ -80,18 +81,10 @@ public class PyHierarchyCallCacheManagerImpl extends PyHierarchyCallCacheManager
       new CacheLoader<VirtualFile, String>() {
         @Override
         public String load(VirtualFile key) throws Exception {
-          return readCalleeAttributeFromFile(key);
+          return readAttributeFromFile(key, HIERARCHY_CALLEES_DATA);
         }
       }
     );
-
-  private static String readCallerAttributeFromFile(VirtualFile key) {
-    return readAttributeFromFile(key, HIERARCHY_CALLERS_DATA);
-  }
-
-  private static String readCalleeAttributeFromFile(VirtualFile key) {
-    return readAttributeFromFile(key, HIERARCHY_CALLEES_DATA);
-  }
 
   private static String readAttributeFromFile(VirtualFile key, FileAttribute fileAttribute) {
     byte[] data;
@@ -110,7 +103,53 @@ public class PyHierarchyCallCacheManagerImpl extends PyHierarchyCallCacheManager
       content = null;
     }
 
-    return content;
+    return content != null ? content : "";
+  }
+
+  private String readCallerAttribute(VirtualFile file) {
+    return readAttribute(myHierarchyCallersCache, file);
+  }
+
+  private String readCalleeAttribute(VirtualFile file) {
+    return readAttribute(myHierarchyCalleesCache, file);
+  }
+
+  private String readAttribute(LoadingCache<VirtualFile, String> cache, VirtualFile file) {
+    try {
+      String attrContent = cache.get(file);
+      if (!StringUtil.isEmpty(attrContent)) {
+        return attrContent;
+      }
+    }
+    catch (ExecutionException e) {
+    }
+
+    return null;
+  }
+
+  private void writeCallerAttribute(VirtualFile file, String attrString) {
+    writeAttribute(myHierarchyCallersCache, file, HIERARCHY_CALLERS_DATA, attrString);
+  }
+
+  private void writeCalleeAttribute(VirtualFile file, String attrString) {
+    writeAttribute(myHierarchyCalleesCache, file, HIERARCHY_CALLEES_DATA, attrString);
+  }
+
+  private void writeAttribute(LoadingCache<VirtualFile, String> cache, VirtualFile file, FileAttribute fileAttribute, String attrString) {
+    String cachedValue = cache.asMap().get(file);
+    if (!attrString.equals(cachedValue)) {
+      cache.put(file, attrString);
+      writeAttributeToFile(file, fileAttribute, attrString);
+    }
+  }
+
+  private static void writeAttributeToFile(VirtualFile file, FileAttribute fileAttribute, String attrString) {
+    try {
+      fileAttribute.writeAttributeBytes(file, attrString.getBytes());
+    }
+    catch (IOException e) {
+      LOG.warn("Can't write attribute " + file.getCanonicalPath() + " " + attrString);
+    }
   }
 
   @Override
@@ -119,13 +158,95 @@ public class PyHierarchyCallCacheManagerImpl extends PyHierarchyCallCacheManager
 
     VirtualFile calleeFile = getCalleeFile(callInfo);
     if (calleeFile != null && scope.contains(calleeFile)) {
-      recordHierarchyCallerInfo(calleeFile, callInfo);
+      recordHierarchyCallerData(calleeFile, callInfo);
     }
 
     VirtualFile callerFile = getCallerFile(callInfo);
     if (callerFile != null && scope.contains(callerFile)) {
-      //recordHierarchyCalleeInfo(callerFile, callInfo);
+      recordHierarchyCalleeData(callerFile, callInfo);
     }
+  }
+
+  private void recordHierarchyCallerData(VirtualFile calleeFile, PyHierarchyCallInfo callInfo) {
+    String data = readAttribute(myHierarchyCallersCache, calleeFile);
+
+    //if (callInfo.getCalleeName().endsWith("func2") && callInfo.getCallerName().endsWith("func1") && callInfo.getCallerLine() == 15) {
+    //  int i = 1;
+    //}
+
+    String[] lines;
+    if (data != null) {
+      lines = data.split("\n");
+    }
+    else {
+      lines = ArrayUtil.EMPTY_STRING_ARRAY;
+    }
+
+    String calleeName = callInfo.getCalleeName();
+    String callerName = callInfo.getCallerName();
+    String callerFile = callInfo.getCallerFile();
+    boolean found = false;
+    int i = 0;
+    for (String calls: lines) {
+      String[] parts = calls.split("\t");
+      if (parts.length > 2 && parts[0].equals(calleeName) && parts[1].equals(callerFile) && parts[2].equals(callerName)) {
+        found = true;
+        lines[i] = PyHierarchyCallDataConverter.hierarchyCallerDataToString(
+          PyHierarchyCallDataConverter.stringToHierarchyCallerData(calleeFile.getCanonicalPath(), lines[i])
+            .addAllCallerLines(callInfo.toPyHierarchyCallerData()));
+      }
+      i++;
+    }
+    if (!found) {
+      String[] lines2 = new String[lines.length + 1];
+      System.arraycopy(lines, 0, lines2, 0, lines.length);
+
+      lines2[lines2.length - 1] = PyHierarchyCallDataConverter.hierarchyCallerDataToString(callInfo.toPyHierarchyCallerData());
+      lines = lines2;
+    }
+    String attrString = StringUtil.join(lines, "\n");
+    writeCallerAttribute(calleeFile, attrString);
+
+    //System.out.println("data before call: \n" + data);
+    //System.out.println("call info: \n" + callInfo);
+    //System.out.println("data to write: \n" + attrString + "\n");
+  }
+
+  private void recordHierarchyCalleeData(VirtualFile callerFile, PyHierarchyCallInfo callInfo) {
+    String data = readAttribute(myHierarchyCalleesCache, callerFile);
+
+    String[] lines;
+    if (data != null) {
+      lines = data.split("\n");
+    }
+    else {
+      lines = ArrayUtil.EMPTY_STRING_ARRAY;
+    }
+
+    String callerName = callInfo.getCallerName();
+    String calleeName = callInfo.getCalleeName();
+    String calleeFile = callInfo.getCalleeFile();
+    boolean found = false;
+    int i = 0;
+    for (String calls: lines) {
+      String[] parts = calls.split("\t");
+      if (parts.length > 2 && parts[0].equals(callerName) && parts[1].equals(calleeFile) && parts[2].equals(calleeName)) {
+        found = true;
+        lines[i] = PyHierarchyCallDataConverter.hierarchyCalleeDataToString(
+          PyHierarchyCallDataConverter.stringToHierarchyCalleeData(callerFile.getCanonicalPath(), lines[i])
+            .addAllCalleeLines(callInfo.toPyHierarchyCalleeData()));
+      }
+      i++;
+    }
+    if (!found) {
+      String[] lines2 = new String[lines.length + 1];
+      System.arraycopy(lines, 0, lines2, 0, lines.length);
+
+      lines2[lines2.length - 1] = PyHierarchyCallDataConverter.hierarchyCalleeDataToString(callInfo.toPyHierarchyCalleeData());
+      lines = lines2;
+    }
+    String attrString = StringUtil.join(lines, "\n");
+    writeCalleeAttribute(callerFile, attrString);
   }
 
   @Override
@@ -148,15 +269,42 @@ public class PyHierarchyCallCacheManagerImpl extends PyHierarchyCallCacheManager
     return ArrayUtil.EMPTY_OBJECT_ARRAY;
   }
 
+  private Object[] readCallersForFunction(VirtualFile calleeFile, String calleeName) {
+    String content = readAttribute(myHierarchyCallersCache, calleeFile);
+    if (content == null) {
+      return ArrayUtil.EMPTY_OBJECT_ARRAY;
+    }
+    List<PyHierarchyCallerData> callers = Lists.newArrayList();
+    String[] lines = content.split("\n");
+    for (String callsInfo: lines) {
+      String[] parts = callsInfo.split("\t");
+      if (calleeName.equals(parts[0])) {
+        callers.add(PyHierarchyCallDataConverter.stringToHierarchyCallerData(calleeFile.getCanonicalPath(), callsInfo));
+      }
+    }
+    return ArrayUtil.toObjectArray(callers);
+  }
+
+  private Object[] readCalleesForFunction(VirtualFile callerFile, String callerName) {
+    String content = readAttribute(myHierarchyCalleesCache, callerFile);
+    if (content == null) {
+      return ArrayUtil.EMPTY_OBJECT_ARRAY;
+    }
+    List<PyHierarchyCalleeData> callees = Lists.newArrayList();
+    String[] lines = content.split("\n");
+    for (String callsInfo: lines) {
+      String[] parts = callsInfo.split("\t");
+      if (callerName.equals(parts[0])) {
+        callees.add(PyHierarchyCallDataConverter.stringToHierarchyCalleeData(callerFile.getCanonicalPath(), callsInfo));
+      }
+    }
+    return ArrayUtil.toObjectArray(callees);
+  }
+
   public static VirtualFile getFile(@NotNull PyFunction function) {
     PsiFile file = function.getContainingFile();
 
     return file != null ? file.getOriginalFile().getVirtualFile() : null;
-  }
-
-  @Override
-  public PyHierarchyCalleeData[] findFunctionCallees(@NotNull PyFunction function) {
-    return new PyHierarchyCalleeData[0];
   }
 
   @Override
@@ -168,7 +316,8 @@ public class PyHierarchyCallCacheManagerImpl extends PyHierarchyCallCacheManager
         ProjectFileIndex.SERVICE.getInstance(myProject).iterateContent(new ContentIterator() {
           @Override
           public boolean processFile(VirtualFile fileOrDir) {
-            if (readCallerAttributeFromFile(fileOrDir) != null || readCalleeAttributeFromFile(fileOrDir) != null) {
+            if (readAttributeFromFile(fileOrDir, HIERARCHY_CALLERS_DATA) != null
+                || readAttributeFromFile(fileOrDir, HIERARCHY_CALLEES_DATA) != null) {
               writeCallerAttribute(fileOrDir, "");
               writeCalleeAttribute(fileOrDir, "");
               deleted.set(true);
@@ -189,122 +338,7 @@ public class PyHierarchyCallCacheManagerImpl extends PyHierarchyCallCacheManager
     else {
       message = "Nothing to delete";
     }
-    Messages.showInfoMessage(myProject, message, "Delete cache");
-  }
-
-  private void recordHierarchyCallerInfo(VirtualFile calleeFile, PyHierarchyCallInfo callInfo) {
-    String data = readAttribute(myHierarchyCallersCache, calleeFile);
-
-    String[] lines;
-    if (data != null) {
-      lines = data.split("\n");
-    }
-    else {
-      lines = ArrayUtil.EMPTY_STRING_ARRAY;
-    }
-
-    String name = callInfo.getCalleeName();
-    String caller = callInfo.getCallerName();
-    boolean found = false;
-    int i = 0;
-    for (String calls: lines) {
-      String[] parts = calls.split("\t");
-      if (parts.length > 1 && parts[0].equals(name) && parts[1].equals(caller)) {
-        found = true;
-        lines[i] = hierarchyCallerDataToString(stringToHierarchyCallerData(calleeFile.getCanonicalPath(), lines[i])
-                                                 .addAllCallerLines(callInfo.toPyHierarchyCallerData()));
-      }
-      i++;
-    }
-    if (!found) {
-      String[] lines2 = new String[lines.length + 1];
-      System.arraycopy(lines, 0, lines2, 0, lines.length);
-
-      lines2[lines2.length - 1] = hierarchyCallerDataToString(callInfo.toPyHierarchyCallerData());
-      lines = lines2;
-    }
-    String attrString = StringUtil.join(lines, "\n");
-    writeCallerAttribute(calleeFile, attrString);
-  }
-
-  private static String hierarchyCallDataToString() {
-    return null;
-  }
-
-  private static PyHierarchyCallerData stringToHierarchyCallerData(String calleePath, String callerData) {
-    String[] parts = callerData.split("\t");
-    if (parts.length > 2) {
-      String calleeName = parts[0];
-      String callerPath = parts[1];
-      String callerName = parts[2];
-      PyHierarchyCallerData data = new PyHierarchyCallerData(callerPath, calleePath, callerName, calleeName);
-      for (int i = 3; i < parts.length; i++) {
-        data.addCallerLine(Integer.parseInt(parts[i]));
-      }
-
-      return data;
-    }
-    return null;
-  }
-
-  private static String hierarchyCallerDataToString(PyHierarchyCallerData data) {
-    return data.getCalleeName()
-           + "\t" + data.getCallerFile()
-           + "\t" + data.getCallerName()
-           + "\t" + StringUtil.join(data.getCallerLines(), "\t");
-  }
-
-  private static PyHierarchyCalleeData stringToPyHierarchyCalleeData(String callerPath, String calleeData) {
-    String[] parts = calleeData.split("\t");
-    if (parts.length > 2) {
-      String callerName = parts[0];
-      String calleePath = parts[1];
-      String calleeName = parts[2];
-      PyHierarchyCalleeData data = new PyHierarchyCalleeData(callerPath, calleePath, callerName, calleeName);
-      for (int i = 3; i < parts.length; i++) {
-        data.addCalleeLine(Integer.parseInt(parts[i]));
-      }
-
-      return data;
-    }
-
-    return null;
-  }
-
-  private String readAttribute(LoadingCache<VirtualFile, String> cache, VirtualFile file) {
-    try {
-      String attrContent = cache.get(file);
-      if (!StringUtil.isEmpty(attrContent)) {
-        return attrContent;
-      }
-    }
-    catch (ExecutionException e) {
-    }
-
-    return null;
-  }
-
-  private void writeCallerAttribute(VirtualFile file, String attrString) {
-    String cachedValue = myHierarchyCallersCache.asMap().get(file);
-    if (!attrString.equals(cachedValue)) {
-      writeAttributeToFile(HIERARCHY_CALLERS_DATA, file,attrString);
-    }
-  }
-
-  private void writeCalleeAttribute(VirtualFile file, String attrString) {
-    String cachedValue = myHierarchyCalleesCache.asMap().get(file);
-    if (!attrString.equals(cachedValue)) {
-      writeAttributeToFile(HIERARCHY_CALLEES_DATA, file, attrString);
-    }
-  }
-
-  private static void writeAttributeToFile(FileAttribute fileAttribute, VirtualFile file, String attrString) {
-    try {
-      fileAttribute.writeAttributeBytes(file, attrString.getBytes());
-    }
-    catch (IOException e) {
-      LOG.warn("Can't write attribute " + file.getCanonicalPath() + " " + attrString);
-    }
+    Messages.showInfoMessage(myProject, message, "Delete call hierarchy cache");
   }
 
   private static VirtualFile getCallerFile(PyHierarchyCallInfo callInfo) {

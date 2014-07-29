@@ -117,6 +117,9 @@ version = '2.7.6 (default, Mar 22 2014, 22:59:56) \n[GCC 4.8.2]'
 
 _multiarch = 'x86_64-linux-gnu'
 
+__egginsert = 2
+__plen = 6
+
 # functions
 
 def callstats(): # real signature unknown; restored from __doc__
@@ -408,6 +411,8 @@ modules = {} # real value of type <type 'dict'> skipped
 
 path = [
     '/home/user/GitHub/intellij-community/intellij-community/out/production/python-helpers',
+    '/usr/local/lib/python2.7/dist-packages/setuptools-1.1.5-py2.7.egg',
+    '/usr/local/lib/python2.7/dist-packages/pip-1.4.1-py2.7.egg',
     '/usr/lib/python2.7',
     '/usr/lib/python2.7/plat-x86_64-linux-gnu',
     '/usr/lib/python2.7/lib-tk',

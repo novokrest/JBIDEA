@@ -17,11 +17,15 @@ package com.jetbrains.python;
 
 import com.intellij.openapi.wm.impl.SystemDock;
 import com.intellij.psi.PsiElement;
+import com.intellij.psi.util.PsiUtilBase;
+import com.jetbrains.python.debugger.PyHierarchyCallCacheManager;
 import com.jetbrains.python.documentation.PythonDocumentationProvider;
 import com.jetbrains.python.fixtures.PyTestCase;
 import com.jetbrains.python.psi.Callable;
 import com.jetbrains.python.psi.LanguageLevel;
 import com.jetbrains.python.psi.PyExpression;
+import com.jetbrains.python.psi.PyFunction;
+import com.jetbrains.python.psi.impl.PyFunctionBuilder;
 import com.jetbrains.python.psi.impl.PyTargetExpressionImpl;
 import com.jetbrains.python.psi.impl.PythonLanguageLevelPusher;
 import com.jetbrains.python.psi.types.*;
